@@ -1,0 +1,214 @@
+******************************************************************
+*Procedimiento que permite MOSTRAR EL BALANCE GENERAL
+
+PARAMETERS  nivel
+
+SET SAFETY OFF
+SET NEAR ON
+
+FOR cer = 5 TO 300
+	lsd = "Use in " + ALLTRIM(STR(cer))
+	&lsd
+ENDFOR
+
+******VARIABLES SIMULADAS /// ELIMINAR
+*tipoconta=1  /// POR FINCA
+*******
+
+PRIVATE a,b,m,pant,cactual,auxcod,prov,auxnum1,qreg,qrfin,lini,lifin,finca
+
+SELECT 18
+USE bgi1 EXCLUSIVE
+ZAP
+
+SELECT 18
+USE iprov
+INDEX ON codprov TO ip2
+
+
+SELECT 58
+USE puc
+INDEX ON codigo TO ppupc
+
+SELECT 113
+USE ciclos
+
+SELECT 115
+USE bg EXCLUSIVE
+ZAP
+INDEX ON bg.codcontabl TO bg
+
+SELECT 114
+USE puc1
+GO TOP
+
+SET RELATION TO puc1.codprov INTO 18
+INDEX ON puc1.codcontabl TO puucc2  &&//Indices por CODCONTABL
+GO TOP
+
+&&///////  PASANDO A BG.DBF ///////////
+
+DO WHILE !EOF()
+	IF puc1.saldoinic<>0
+		SELECT 115
+		APPEND BLANK
+		REPLACE bg.codcontabl WITH puc1.codcontabl
+		REPLACE bg.nombrecta WITH  LEFT(SPAC(1-LEN(ALLTRIM(puc1.original)))+ALLTRIM(ALLTRIM(iprov.nombprov)+' '+ALLTRIM(puc1.nombrecta))+SPAC(100),100)
+		REPLACE bg.detalle WITH puc1.saldoinic
+
+		agrup=LEFT(LEFT(puc1.codcontabl,1)+SPAC(10),10)
+		SEEK agrup
+		IF .NOT. FOUND()
+			APPEND BLANK
+			REPLACE bg.codcontabl WITH agrup
+		ENDIF
+
+		agrup=LEFT(LEFT(puc1.codcontabl,2)+SPAC(10),10)
+		SEEK agrup
+		IF .NOT. FOUND()
+			APPEND BLANK
+			REPLACE bg.codcontabl WITH agrup
+		ENDIF
+
+		agrup=LEFT(LEFT(puc1.codcontabl,4)+SPAC(10),10)
+		SEEK agrup
+		IF .NOT. FOUND()
+			APPEND BLANK
+			REPLACE bg.codcontabl WITH agrup
+		ENDIF
+
+		agrup=LEFT(LEFT(puc1.codcontabl,6)+SPAC(10),10)
+		SEEK agrup
+		IF .NOT. FOUND()
+			APPEND BLANK
+			REPLACE bg.codcontabl WITH agrup
+		ENDIF
+
+		SELECT 114
+	ENDIF
+	Skip
+ENDDO
+
+SELECT 115
+INDEX ON bg.detalle TO bg
+
+SET RELATION TO bg.codcontabl INTO 114
+SET RELATION TO bg.codcontabl INTO 58 ADDITIVE
+
+GO TOP
+SEEK 0
+
+DO WHILE bg.detalle=0 AND RECCOUNT()<>0
+
+	SELECT 114
+	grupo=ALLTRIM(bg.codcontabl)
+	SUM puc1.saldoinic TO xxx FOR LEFT(puc1.codcontabl,LEN(grupo))=grupo
+
+	SELECT 115
+	GO RECNO()
+	REPLACE bg.TOTAL WITH xxx
+
+	IF puc.denomina<>" "
+		REPLACE bg.nombrecta WITH  LEFT(puc.denomina,100)
+	ELSE
+		REPLACE bg.nombrecta WITH  LEFT(SPAC(1-LEN(ALLTRIM(puc1.original)))+ALLTRIM(ALLTRIM(iprov.nombprov)+' '+ALLTRIM(puc1.nombrecta))+SPAC(100),100)
+	ENDIF
+
+	Skip
+ENDDO
+
+&&///////////////////////////////////////
+
+SELECT 115
+SET RELATION TO
+INDEX ON bg.codcontabl TO bg
+
+REPLACE bg.detalle WITH (bg.detalle*-1) FOR LEFT(bg.codcontabl,1)>"1" .AND.  LEFT(bg.codcontabl,1)<"4"
+REPLACE bg.TOTAL WITH (bg.TOTAL*-1) FOR LEFT(bg.codcontabl,1)>"1" .AND.  LEFT(bg.codcontabl,1)<"4"
+
+SUM bg.TOTAL TO actipas FOR LEFT(bg.codcontabl,1)>"1" .AND. LEN(ALLTRIM(bg.codcontabl))=1
+
+APPEND BLANK
+REPLACE bg.codcontabl WITH ">>>>"
+REPLACE bg.nombrecta WITH  "** PASIVO  +  PATRIMONIO..."
+REPLACE bg.TOTAL WITH actipas
+
+
+MESSAGEBOX("Este balance corresponde al ultimo cierre hecho",0,"   *** IMPORTANTE ***  ")
+
+
+fechabal=ciclos.fechai-1
+set step on
+IF nivel=1
+	SET FILTER TO LEN(ALLTRIM(bg.codcontabl))=1 or left(ALLT(bg.codcontabl),1)=">"
+	GO TOP
+ELSE
+	nivel=nivel-1
+	SET FILTER TO LEN(ALLT(bg.codcontabl))<=nivel*2 or left(ALLT(bg.codcontabl),1)=">"
+	GO TOP
+ENDIF
+
+DO impre3
+
+USE IN 18
+USE IN 58
+USE IN 113
+USE IN 115
+USE IN 114
+
+RETURN
+*************
+
+
+*************
+PROCEDURE impre3
+
+	GO TOP
+
+	claimp=SPAC(1)
+	grpimp=SPAC(2)
+	ctaimp=SPAC(4)
+	sbctaimp=SPAC(6)
+
+	DO WHILE .NOT. EOF()
+
+		SELECT 115
+
+		IF LEN(ALLTRIM(bg.codcontabl))=1
+
+			INSERT INTO bgi1.DBF (aa1);
+				VALUES (" ")
+
+		ENDIF
+
+		a1= bg.codcontabl
+
+		IF LEN(ALLTRIM(bg.codcontabl))=1
+			a2= LEFT(UPPER(bg.nombrecta),60)
+		ELSE
+			a2=LEFT(SPAC(LEN(ALLTRIM(bg.codcontabl)))+LEFT(bg.nombrecta,60),60)
+		ENDIF
+
+		c1= bg.detalle
+		c2= bg.TOTAL
+
+		INSERT INTO bgi1.DBF (aa1, aa2, cc1, cc2);
+			VALUES (a1, a2, c1, c2)
+
+		IF LEN(ALLTRIM(bg.codcontabl))=1
+
+			INSERT INTO bgi1.DBF (aa1);
+				VALUES (" ")
+
+		ENDIF
+
+		Skip
+	ENDDO
+	if used("bgi1")
+		select bgi1
+		IF RECCOUNT("bgi1") > 2
+			DO FORM imprimir WITH "bg.frx",""
+
+		ENDIF
+	endif
+	RETURN

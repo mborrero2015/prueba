@@ -1,0 +1,2500 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Movimientos de:  Septiembre 1 de
+        2002
+
+         0000000143 dePAGOS
+
+       23200101   CONTRATISTAS         HENRIQUE     CxP a Henrique      3.200.000.         0.0
+                                                                                 0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Henrique           0.0   3.200.000
+                                                                                            .0
+
+
+         0000000144 dePAGOS
+
+       23200101   CONTRATISTAS         HENRIQUE     CxP a Henrique      13.600.000         0.0
+                                                                                .0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Henrique           0.0   13.600.00
+                                                                                           0.0
+
+
+         0000000117 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         HENRIQUE     CxP a Henrique             0.0   3.200.000
+                                                                                            .0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   3.200.000
+                                                                                            .0
+
+
+         0000000118 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         HENRIQUE     CxP a Henrique             0.0   13.600.00
+                                                                                           0.0
+
+
+       17052501   NOMBRE DEL           HENRIQUE     PAGO X ANTICIPADO   13.600.000         0.0
+                                                                                .0
+
+
+                                SUBTOTAL para Septiembre 1 de         30.400.     36.800.000.0
+                                2002
+
+
+        Movimientos de:  Septiembre 4 de
+        2002
+
+         0000000152 dePAGOS
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro    130.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Servicentro        0.0   130.000.0
+
+
+         0000000054 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro          0.0   130.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   130.000.0
+
+
+                                SUBTOTAL para Septiembre 4 de            130.        390.000.0
+                                2002
+
+
+
+
+
+
+
+
+
+        Junio  9 de 2003 Hora 14:48:35.23                                             Página 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Movimientos de:  Septiembre 10 de
+        2002
+
+         0000000145 dePAGOS
+
+       23200101   CONTRATISTAS         HENRIQUE     CxP a Henrique      31.121.877         0.0
+                                                                                .0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Henrique           0.0   31.121.87
+                                                                                           7.0
+
+
+         0000000322 dePAGOS
+
+       23200101   CONTRATISTAS         HENRIQUE     CxP a Henrique       540.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Henrique           0.0   540.000.0
+
+
+         0000000120 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         HENRIQUE     CxP a Henrique             0.0   31.121.87
+                                                                                           7.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   31.121.87
+                                                                                           7.0
+
+
+         0000000321 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         HENRIQUE     CxP a Henrique             0.0   540.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   540.000.0
+
+
+                                SUBTOTAL para Septiembre 10 de        31.661.     94.985.631.0
+                                2002
+
+
+        Movimientos de:  Septiembre 14 de
+        2002
+
+         0000000193 dePAGOS
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro   1.134.000.         0.0
+                                                                                 0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Servicentro        0.0   1.134.000
+                                                                                            .0
+
+
+         0000000095 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro          0.0   1.134.000
+                                                                                            .0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   1.134.000
+                                                                                            .0
+
+
+                                SUBTOTAL para Septiembre 14 de         1.134.      3.402.000.0
+                                2002
+
+
+
+
+
+
+
+
+
+        Junio  9 de 2003 Hora 14:48:35.23                                             Página 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Movimientos de:  Septiembre 15 de
+        2002
+
+         0000000146 dePAGOS
+
+       23200101   CONTRATISTAS         JORNALES     CxP a Jornales      5.914.422.         0.0
+                                                                                 0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Jornales           0.0   5.914.422
+                                                                                            .0
+
+
+         0000000147 dePAGOS
+
+       23200101   CONTRATISTAS         JORNALES     CxP a Jornales      7.000.000.         0.0
+                                                                                 0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Jornales           0.0   7.000.000
+                                                                                            .0
+
+
+         0000000316 deAPLIC. INSUMOS CULTIVO
+
+       14050101   Semillas             HERGON AGRO  SALIDA                     0.0   -9.405.52
+                                                                                           5.0
+
+
+       71010101   SEMILLA              HERGON AGRO  COSTO Semillas      -9.405.525         0.0
+                                                                                .0
+
+
+         0000000318 deAPLIC. INSUMOS CULTIVO
+
+       14050101   Semillas             HERGON AGRO  SALIDA                     0.0   1.410.829
+                                                                                            .0
+
+
+       71010101   SEMILLA              HERGON AGRO  COSTO Semillas      1.410.829.         0.0
+                                                                                 0
+
+
+         0000000124 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         JORNALES     CxP a Jornales             0.0   5.914.422
+                                                                                            .0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   5.914.422
+                                                                                            .0
+
+
+         0000000125 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         JORNALES     CxP a Jornales             0.0   7.000.000
+                                                                                            .0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   7.000.000
+                                                                                            .0
+
+
+                                SUBTOTAL para Septiembre 15 de         4.919.     30.748.570.0
+                                2002
+
+
+
+
+
+
+
+
+
+
+
+
+        Junio  9 de 2003 Hora 14:48:35.23                                             Página 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Movimientos de:  Septiembre 17 de
+        2002
+
+         0000000181 dePAGOS
+
+       23200101   CONTRATISTAS         RESTAURANTE  CxP a Restaurante    481.600.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Restaurante        0.0   481.600.0
+
+
+         0000000083 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         RESTAURANTE  CxP a Restaurante          0.0   481.600.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   481.600.0
+
+
+                                SUBTOTAL para Septiembre 17 de           481.      1.444.800.0
+                                2002
+
+
+        Movimientos de:  Septiembre 27 de
+        2002
+
+         0000000182 dePAGOS
+
+       23200101   CONTRATISTAS         RESTAURANTE  CxP a Restaurante    507.200.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Restaurante        0.0   507.200.0
+
+
+         0000000194 dePAGOS
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro   1.134.000.         0.0
+                                                                                 0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Servicentro        0.0   1.134.000
+                                                                                            .0
+
+
+         0000000084 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         RESTAURANTE  CxP a Restaurante          0.0   507.200.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   507.200.0
+
+
+         0000000096 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro          0.0   1.134.000
+                                                                                            .0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   1.134.000
+                                                                                            .0
+
+
+                                SUBTOTAL para Septiembre 27 de         1.641.      4.923.600.0
+                                2002
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Junio  9 de 2003 Hora 14:48:35.23                                             Página 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Movimientos de:  Octubre 1 de 2002
+
+         0000000183 dePAGOS
+
+       23200101   CONTRATISTAS         RESTAURANTE  CxP a Restaurante    188.800.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Restaurante        0.0   188.800.0
+
+
+         0000000085 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         RESTAURANTE  CxP a Restaurante          0.0   188.800.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   188.800.0
+
+
+                                SUBTOTAL para Octubre 1 de 2002          188.        566.400.0
+
+
+        Movimientos de:  Octubre 5 de 2002
+
+         0000000148 dePAGOS
+
+       23200101   CONTRATISTAS         JORNALES     CxP a Jornales      2.000.000.         0.0
+                                                                                 0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Jornales           0.0   2.000.000
+                                                                                            .0
+
+
+         0000000325 deAPLIC. INSUMOS CULTIVO
+
+       14050103   Herbicidas           HERGON AGRO  SALIDA                     0.0   15.777.51
+                                                                                           9.0
+
+
+       71010104   HERBICIDAS           HERGON AGRO  COSTO Herbicidas    15.777.519         0.0
+                                                                                .0
+
+
+         0000000326 deAPLIC. INSUMOS CULTIVO
+
+       14050103   Herbicidas           HERGON AGRO  SALIDA                     0.0   116.675.0
+
+
+       71010104   HERBICIDAS           HERGON AGRO  COSTO Herbicidas     116.675.0         0.0
+
+
+         0000000127 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         JORNALES     CxP a Jornales             0.0   2.000.000
+                                                                                            .0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   2.000.000
+                                                                                            .0
+
+
+                                SUBTOTAL para Octubre 5 de 2002       17.894.     21.894.194.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Junio  9 de 2003 Hora 14:48:35.23                                             Página 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Movimientos de:  Octubre 10 de 2002
+
+         0000000327 deAPLIC. INSUMOS CULTIVO
+
+       14050103   Herbicidas           HERGON AGRO  SALIDA                     0.0   116.675.0
+
+
+       71010104   HERBICIDAS           HERGON AGRO  COSTO Herbicidas     116.675.0         0.0
+
+
+                                SUBTOTAL para Octubre 10 de 2002         116.        116.675.0
+
+
+        Movimientos de:  Octubre 21 de 2002
+
+         0000000184 dePAGOS
+
+       23200101   CONTRATISTAS         RESTAURANTE  CxP a Restaurante    160.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Restaurante        0.0   160.000.0
+
+
+         0000000195 dePAGOS
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro   1.296.000.         0.0
+                                                                                 0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Servicentro        0.0   1.296.000
+                                                                                            .0
+
+
+         0000000086 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         RESTAURANTE  CxP a Restaurante          0.0   160.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   160.000.0
+
+
+         0000000097 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro          0.0   1.296.000
+                                                                                            .0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   1.296.000
+                                                                                            .0
+
+
+                                SUBTOTAL para Octubre 21 de 2002       1.456.      4.368.000.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Junio  9 de 2003 Hora 14:48:35.23                                             Página 6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Movimientos de:  Octubre 25 de 2002
+
+         0000000168 dePAGOS
+
+       23200101   CONTRATISTAS         LLANTAS Y    CxP a Llantas Y      119.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Llantas Y          0.0   119.000.0
+
+
+         0000000202 dePAGOS
+
+       23200101   CONTRATISTAS         CASA SANTA   CxP a Casa Santa     123.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Casa Santa         0.0   123.000.0
+
+
+         0000000211 dePAGOS
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro   1.464.100.         0.0
+                                                                                 0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Servicentro        0.0   1.464.100
+                                                                                            .0
+
+
+         0000000328 dePAGOS
+
+       23200101   CONTRATISTAS         JORNALES     CxP a Jornales      1.050.000.         0.0
+                                                                                 0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Jornales           0.0   1.050.000
+                                                                                            .0
+
+
+         0000000128 deAPLIC. INSUMOS CULTIVO
+
+       14050102   Fertilizantes        HERGON AGRO  SALIDA                     0.0   22.969.02
+                                                                                           6.0
+
+
+       71010102   FERTILIZANTES        HERGON AGRO  COSTO Fertilizan    22.969.026         0.0
+                                                                                .0
+
+
+         0000000070 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         LLANTAS Y    CxP a Llantas Y            0.0   119.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   119.000.0
+
+
+         0000000098 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro          0.0   1.464.100
+                                                                                            .0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   1.464.100
+                                                                                            .0
+
+
+         0000000107 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         CASA SANTA   CxP a Casa Santa           0.0   123.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   123.000.0
+
+
+         0000000130 deCONT. SERVICIOS-CULTIVO
+
+
+        Junio  9 de 2003 Hora 14:48:35.23                                             Página 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       23200101   CONTRATISTAS         JORNALES     CxP a Jornales             0.0   1.050.000
+                                                                                            .0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   1.050.000
+                                                                                            .0
+
+
+                                SUBTOTAL para Octubre 25 de 2002      25.725.     31.237.326.0
+
+
+        Movimientos de:  Octubre 30 de 2002
+
+         0000000158 dePAGOS
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro     20.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Servicentro        0.0    20.000.0
+
+
+         0000000170 dePAGOS
+
+       23200101   CONTRATISTAS         COOPIAGROS   CxP a Coopiagros      13.500.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Coopiagros         0.0    13.500.0
+
+
+         0000000060 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro          0.0    20.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0    20.000.0
+
+
+         0000000072 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         COOPIAGROS   CxP a Coopiagros           0.0    13.500.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0    13.500.0
+
+
+                                SUBTOTAL para Octubre 30 de 2002          33.        100.500.0
+
+
+        Movimientos de:  Noviembre 5 de 2002
+
+         0000000185 dePAGOS
+
+       23200101   CONTRATISTAS         RESTAURANTE  CxP a Restaurante    492.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Restaurante        0.0   492.000.0
+
+
+         0000000087 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         RESTAURANTE  CxP a Restaurante          0.0   492.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   492.000.0
+
+
+                                SUBTOTAL para Noviembre 5 de             492.      1.476.000.0
+                                2002
+
+
+
+
+
+
+
+
+
+
+        Junio  9 de 2003 Hora 14:48:35.25                                             Página 8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Movimientos de:  Noviembre 17 de
+        2002
+
+         0000000171 dePAGOS
+
+       23200101   CONTRATISTAS         FLETE DE     CxP a Flete De       380.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Flete De           0.0   380.000.0
+
+
+         0000000073 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         FLETE DE     CxP a Flete De             0.0   380.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   380.000.0
+
+
+                                SUBTOTAL para Noviembre 17 de            380.      1.140.000.0
+                                2002
+
+
+        Movimientos de:  Noviembre 20 de
+        2002
+
+         0000000210 dePAGOS
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro   2.256.740.         0.0
+                                                                                 0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Servicentro        0.0   2.256.740
+                                                                                            .0
+
+
+         0000000099 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro          0.0   2.256.740
+                                                                                            .0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   2.256.740
+                                                                                            .0
+
+
+                                SUBTOTAL para Noviembre 20 de          2.256.      6.770.220.0
+                                2002
+
+
+        Movimientos de:  Noviembre 25 de
+        2002
+
+         0000000160 dePAGOS
+
+       23200101   CONTRATISTAS         LEON         CxP a Leon            50.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Leon               0.0    50.000.0
+
+
+         0000000167 dePAGOS
+
+       23200101   CONTRATISTAS         LLANTAS Y    CxP a Llantas Y      121.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Llantas Y          0.0   121.000.0
+
+
+         0000000062 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         LEON         CxP a Leon                 0.0    50.000.0
+
+
+
+
+
+        Junio  9 de 2003 Hora 14:48:35.25                                             Página 9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0    50.000.0
+
+
+         0000000069 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         LLANTAS Y    CxP a Llantas Y            0.0   121.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   121.000.0
+
+
+                                SUBTOTAL para Noviembre 25 de            171.        513.000.0
+                                2002
+
+
+        Movimientos de:  Noviembre 27 de
+        2002
+
+         0000000186 dePAGOS
+
+       23200101   CONTRATISTAS         RESTAURANTE  CxP a Restaurante   1.000.000.         0.0
+                                                                                 0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Restaurante        0.0   1.000.000
+                                                                                            .0
+
+
+         0000000088 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         RESTAURANTE  CxP a Restaurante          0.0   1.000.000
+                                                                                            .0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   1.000.000
+                                                                                            .0
+
+
+                                SUBTOTAL para Noviembre 27 de          1.000.      3.000.000.0
+                                2002
+
+
+        Movimientos de:  Noviembre 30 de
+        2002
+
+         0000000329 dePAGOS
+
+       23200101   CONTRATISTAS         JORNALES     CxP a Jornales      2.000.000.         0.0
+                                                                                 0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Jornales           0.0   2.000.000
+                                                                                            .0
+
+
+         0000000129 deAPLIC. INSUMOS CULTIVO
+
+       14050107   Insecticidas         HERGON AGRO  SALIDA                     0.0   3.247.634
+                                                                                            .0
+
+
+       71010108   INSECTICIDAS         HERGON AGRO  COSTO Insecticid    3.247.634.         0.0
+                                                                                 0
+
+
+         0000000131 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         JORNALES     CxP a Jornales             0.0   2.000.000
+                                                                                            .0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   2.000.000
+                                                                                            .0
+
+
+                                SUBTOTAL para Noviembre 30 de          5.247.      9.247.634.0
+
+
+        Junio  9 de 2003 Hora 14:48:35.25                                            Página 10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                2002
+
+
+        Movimientos de:  Diciembre 5 de 2002
+
+         0000000209 dePAGOS
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro   2.176.740.         0.0
+                                                                                 0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Servicentro        0.0   2.176.740
+                                                                                            .0
+
+
+         0000000100 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro          0.0   2.176.740
+                                                                                            .0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   2.176.740
+                                                                                            .0
+
+
+                                SUBTOTAL para Diciembre 5 de           2.176.      6.530.220.0
+                                2002
+
+
+        Movimientos de:  Diciembre 9 de 2002
+
+         0000000172 dePAGOS
+
+       23200101   CONTRATISTAS         FLETE DE     CxP a Flete De       380.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Flete De           0.0   380.000.0
+
+
+         0000000187 dePAGOS
+
+       23200101   CONTRATISTAS         RESTAURANTE  CxP a Restaurante    140.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Restaurante        0.0   140.000.0
+
+
+         0000000074 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         FLETE DE     CxP a Flete De             0.0   380.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   380.000.0
+
+
+         0000000089 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         RESTAURANTE  CxP a Restaurante          0.0   140.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   140.000.0
+
+
+                                SUBTOTAL para Diciembre 9 de             520.      1.560.000.0
+                                2002
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Junio  9 de 2003 Hora 14:48:35.25                                            Página 11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Movimientos de:  Diciembre 11 de
+        2002
+
+         0000000159 dePAGOS
+
+       23200101   CONTRATISTAS         COOPIAGROS   CxP a Coopiagros      14.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Coopiagros         0.0    14.000.0
+
+
+         0000000061 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         COOPIAGROS   CxP a Coopiagros           0.0    14.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0    14.000.0
+
+
+                                SUBTOTAL para Diciembre 11 de             14.         42.000.0
+                                2002
+
+
+        Movimientos de:  Diciembre 12 de
+        2002
+
+         0000000150 dePAGOS
+
+       23200101   CONTRATISTAS         UNIVERSIDAD  CxP a Universidad    120.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Universidad        0.0   120.000.0
+
+
+         0000000052 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         UNIVERSIDAD  CxP a Universidad          0.0   120.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   120.000.0
+
+
+                                SUBTOTAL para Diciembre 12 de            120.        360.000.0
+                                2002
+
+
+        Movimientos de:  Diciembre 13 de
+        2002
+
+         0000000173 dePAGOS
+
+       23200101   CONTRATISTAS         FLETE DE     CxP a Flete De        70.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Flete De           0.0    70.000.0
+
+
+         0000000075 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         FLETE DE     CxP a Flete De             0.0    70.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0    70.000.0
+
+
+                                SUBTOTAL para Diciembre 13 de             70.        210.000.0
+                                2002
+
+
+
+
+
+
+
+
+
+
+        Junio  9 de 2003 Hora 14:48:35.25                                            Página 12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Movimientos de:  Diciembre 14 de
+        2002
+
+         0000000153 dePAGOS
+
+       23200101   CONTRATISTAS         ALMACEN      CxP a Almacen          3.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Almacen            0.0     3.000.0
+
+
+         0000000154 dePAGOS
+
+       23200101   CONTRATISTAS         ACOPLAMIENT  CxP a Acoplamientos    7.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a                    0.0     7.000.0
+
+
+         0000000156 dePAGOS
+
+       23200101   CONTRATISTAS         ALMACEN      CxP a Almacen Ciclo   22.800.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Almacen            0.0    22.800.0
+
+
+         0000000166 dePAGOS
+
+       23200101   CONTRATISTAS         LLANTAS Y    CxP a Llantas Y       67.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Llantas Y          0.0    67.000.0
+
+
+         0000000174 dePAGOS
+
+       23200101   CONTRATISTAS         ALMACEN      CxP a Almacen          1.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Almacen            0.0     1.000.0
+
+
+         0000000055 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         ALMACEN      CxP a Almacen              0.0     3.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0     3.000.0
+
+
+         0000000056 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         ACOPLAMIENT  CxP a Acoplamientos        0.0     7.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0     7.000.0
+
+
+         0000000058 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         ALMACEN      CxP a Almacen Ciclo        0.0    22.800.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0    22.800.0
+
+
+         0000000068 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         LLANTAS Y    CxP a Llantas Y            0.0    67.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0    67.000.0
+
+
+
+
+        Junio  9 de 2003 Hora 14:48:35.25                                            Página 13
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         0000000076 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         ALMACEN      CxP a Almacen              0.0     1.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0     1.000.0
+
+
+                                SUBTOTAL para Diciembre 14 de            100.        302.400.0
+                                2002
+
+
+        Movimientos de:  Diciembre 15 de
+        2002
+
+         0000000149 dePAGOS
+
+       23200101   CONTRATISTAS         JORNALES     CxP a Jornales      2.000.000.         0.0
+                                                                                 0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Jornales           0.0   2.000.000
+                                                                                            .0
+
+
+         0000000155 dePAGOS
+
+       23200101   CONTRATISTAS         RADIADORES   CxP a Radiadores De  380.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Radiadores         0.0   380.000.0
+
+
+         0000000132 deAPLIC. INSUMOS CULTIVO
+
+       14050104   Fungicidas           HERGON AGRO  SALIDA                     0.0   7.516.146
+                                                                                            .0
+
+
+       71010103   FUNGICIDAS           HERGON AGRO  COSTO Fungicidas    7.516.146.         0.0
+                                                                                 0
+
+
+         0000000057 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         RADIADORES   CxP a Radiadores De        0.0   380.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   380.000.0
+
+
+         0000000133 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         JORNALES     CxP a Jornales             0.0   2.000.000
+                                                                                            .0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   2.000.000
+                                                                                            .0
+
+
+                                SUBTOTAL para Diciembre 15 de          9.896.     14.656.146.0
+                                2002
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Junio  9 de 2003 Hora 14:48:35.25                                            Página 14
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Movimientos de:  Diciembre 16 de
+        2002
+
+         0000000175 dePAGOS
+
+       23200101   CONTRATISTAS         REMEC        CxP a Remec          100.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Remec              0.0   100.000.0
+
+
+         0000000176 dePAGOS
+
+       23200101   CONTRATISTAS         SERGIO       CxP a Sergio         100.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Sergio             0.0   100.000.0
+
+
+         0000000177 dePAGOS
+
+       23200101   CONTRATISTAS         FLETE DE     CxP a Flete De         7.500.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Flete De           0.0     7.500.0
+
+
+         0000000178 dePAGOS
+
+       23200101   CONTRATISTAS         FLETE DE     CxP a Flete De        40.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Flete De           0.0    40.000.0
+
+
+         0000000179 dePAGOS
+
+       23200101   CONTRATISTAS         FLETE DE     CxP a Flete De        35.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Flete De           0.0    35.000.0
+
+
+         0000000077 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         REMEC        CxP a Remec                0.0   100.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   100.000.0
+
+
+         0000000078 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         SERGIO       CxP a Sergio               0.0   100.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   100.000.0
+
+
+         0000000079 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         FLETE DE     CxP a Flete De             0.0     7.500.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0     7.500.0
+
+
+         0000000080 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         FLETE DE     CxP a Flete De             0.0    40.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0    40.000.0
+
+
+
+
+        Junio  9 de 2003 Hora 14:48:35.25                                            Página 15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         0000000081 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         FLETE DE     CxP a Flete De             0.0    35.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0    35.000.0
+
+
+                                SUBTOTAL para Diciembre 16 de            282.        847.500.0
+                                2002
+
+
+        Movimientos de:  Diciembre 27 de
+        2002
+
+         0000000165 dePAGOS
+
+       23200101   CONTRATISTAS         LLANTAS Y    CxP a Llantas Y      124.998.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Llantas Y          0.0   124.998.0
+
+
+         0000000201 dePAGOS
+
+       23200101   CONTRATISTAS         ROBERTO      CxP a Roberto Peña    65.152.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Roberto            0.0    65.152.0
+
+
+         0000000067 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         LLANTAS Y    CxP a Llantas Y            0.0   124.998.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   124.998.0
+
+
+         0000000108 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         ROBERTO      CxP a Roberto Peña         0.0    65.152.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0    65.152.0
+
+
+                                SUBTOTAL para Diciembre 27 de            190.        570.450.0
+                                2002
+
+
+        Movimientos de:  Diciembre 30 de
+        2002
+
+         0000000208 dePAGOS
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro   3.352.680.         0.0
+                                                                                 0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Servicentro        0.0   3.352.680
+                                                                                            .0
+
+
+         0000000101 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro          0.0   3.352.680
+                                                                                            .0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   3.352.680
+                                                                                            .0
+
+
+                                SUBTOTAL para Diciembre 30 de          3.352.     10.058.040.0
+                                2002
+
+
+        Junio  9 de 2003 Hora 14:48:35.26                                            Página 16
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Movimientos de:  Enero 5 de 2003
+
+         0000000196 dePAGOS
+
+       23200101   CONTRATISTAS         BANCO        CxP a Banco           95.771.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Banco              0.0    95.771.0
+
+
+         0000000197 dePAGOS
+
+       23200101   CONTRATISTAS         CUENTAS POR  CxP a Cuentas Por   2.500.000.         0.0
+                                                                                 0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Cuentas Por        0.0   2.500.000
+                                                                                            .0
+
+
+         0000000198 dePAGOS
+
+       23200101   CONTRATISTAS         ADMINISTRAD  CxP a Administrador 2.000.000.         0.0
+                                                                                 0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a                    0.0   2.000.000
+                                                                                            .0
+
+
+         0000000324 dePAGOS
+
+       23200101   CONTRATISTAS         HENRIQUE     CxP a Henrique      24.050.000         0.0
+                                                                                .0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Henrique           0.0   24.050.00
+                                                                                           0.0
+
+
+         0000000140 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         ADMINISTRAD  CxP a Administrador        0.0   2.000.000
+                                                                                            .0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   2.000.000
+                                                                                            .0
+
+
+         0000000141 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         CUENTAS POR  CxP a Cuentas Por          0.0   2.500.000
+                                                                                            .0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   2.500.000
+                                                                                            .0
+
+
+         0000000142 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         BANCO        CxP a Banco                0.0    95.771.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0    95.771.0
+
+
+         0000000323 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         HENRIQUE     CxP a Henrique             0.0   24.050.00
+                                                                                           0.0
+
+
+
+
+
+        Junio  9 de 2003 Hora 14:48:35.26                                            Página 17
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   24.050.00
+                                                                                           0.0
+
+
+                                SUBTOTAL para Enero 5 de 2003         28.645.     85.937.313.0
+
+
+        Movimientos de:  Enero 7 de 2003
+
+         0000000200 dePAGOS
+
+       23200101   CONTRATISTAS         REMEC        CxP a Remec           12.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Remec              0.0    12.000.0
+
+
+         0000000109 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         REMEC        CxP a Remec                0.0    12.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0    12.000.0
+
+
+                                SUBTOTAL para Enero 7 de 2003             12.         36.000.0
+
+
+        Movimientos de:  Enero 8 de 2003
+
+         0000000188 dePAGOS
+
+       23200101   CONTRATISTAS         RESTAURANTE  CxP a Restaurante    564.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Restaurante        0.0   564.000.0
+
+
+         0000000090 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         RESTAURANTE  CxP a Restaurante          0.0   564.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   564.000.0
+
+
+                                SUBTOTAL para Enero 8 de 2003            564.      1.692.000.0
+
+
+        Movimientos de:  Enero 18 de 2003
+
+         0000000189 dePAGOS
+
+       23200101   CONTRATISTAS         RESTAURANTE  CxP a Restaurante    638.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Restaurante        0.0   638.000.0
+
+
+         0000000091 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         RESTAURANTE  CxP a Restaurante          0.0   638.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   638.000.0
+
+
+                                SUBTOTAL para Enero 18 de 2003           638.      1.914.000.0
+
+
+
+
+
+
+
+
+
+
+        Junio  9 de 2003 Hora 14:48:35.26                                            Página 18
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Movimientos de:  Enero 19 de 2003
+
+         0000000157 dePAGOS
+
+       23200101   CONTRATISTAS         MULTISERVIC  CxP a Multiservicio  170.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a                    0.0   170.000.0
+
+
+         0000000059 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         MULTISERVIC  CxP a Multiservicio        0.0   170.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   170.000.0
+
+
+                                SUBTOTAL para Enero 19 de 2003           170.        510.000.0
+
+
+        Movimientos de:  Enero 22 de 2003
+
+         0000000164 dePAGOS
+
+       23200101   CONTRATISTAS         LLANTAS Y    CxP a Llantas Y      122.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Llantas Y          0.0   122.000.0
+
+
+         0000000066 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         LLANTAS Y    CxP a Llantas Y            0.0   122.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   122.000.0
+
+
+                                SUBTOTAL para Enero 22 de 2003           122.        366.000.0
+
+
+        Movimientos de:  Enero 29 de 2003
+
+         0000000207 dePAGOS
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro   2.536.800.         0.0
+                                                                                 0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Servicentro        0.0   2.536.800
+                                                                                            .0
+
+
+         0000000102 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro          0.0   2.536.800
+                                                                                            .0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   2.536.800
+                                                                                            .0
+
+
+                                SUBTOTAL para Enero 29 de 2003         2.536.      7.610.400.0
+
+
+
+
+
+
+
+
+
+
+
+
+        Junio  9 de 2003 Hora 14:48:35.26                                            Página 19
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Movimientos de:  Febrero 5 de 2003
+
+         0000000151 dePAGOS
+
+       23200101   CONTRATISTAS         INVERSIONES  CxP a Inversiones      3.500.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Inversiones        0.0     3.500.0
+
+
+         0000000180 dePAGOS
+
+       23200101   CONTRATISTAS         FLETE DE     CxP a Flete De       160.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Flete De           0.0   160.000.0
+
+
+         0000000053 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         INVERSIONES  CxP a Inversiones          0.0     3.500.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0     3.500.0
+
+
+         0000000082 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         FLETE DE     CxP a Flete De             0.0   160.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   160.000.0
+
+
+                                SUBTOTAL para Febrero 5 de 2003          163.        490.500.0
+
+
+        Movimientos de:  Febrero 7 de 2003
+
+         0000000199 dePAGOS
+
+       23200101   CONTRATISTAS         HENRIQUE     CxP a Henrique      10.000.000         0.0
+                                                                                .0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Henrique           0.0   10.000.00
+                                                                                           0.0
+
+
+         0000000110 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         HENRIQUE     CxP a Henrique             0.0   10.000.00
+                                                                                           0.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   10.000.00
+                                                                                           0.0
+
+
+                                SUBTOTAL para Febrero 7 de 2003       10.000.     30.000.000.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Junio  9 de 2003 Hora 14:48:35.26                                            Página 20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Movimientos de:  Febrero 10 de 2003
+
+         0000000190 dePAGOS
+
+       23200101   CONTRATISTAS         RESTAURANTE  CxP a Restaurante    670.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Restaurante        0.0   670.000.0
+
+
+         0000000092 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         RESTAURANTE  CxP a Restaurante          0.0   670.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   670.000.0
+
+
+                                SUBTOTAL para Febrero 10 de 2003         670.      2.010.000.0
+
+
+        Movimientos de:  Febrero 13 de 2003
+
+         0000000206 dePAGOS
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro   2.704.800.         0.0
+                                                                                 0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Servicentro        0.0   2.704.800
+                                                                                            .0
+
+
+         0000000103 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro          0.0   2.704.800
+                                                                                            .0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   2.704.800
+                                                                                            .0
+
+
+                                SUBTOTAL para Febrero 13 de 2003       2.704.      8.114.400.0
+
+
+        Movimientos de:  Febrero 16 de 2003
+
+         0000000203 dePAGOS
+
+       23200101   CONTRATISTAS         ADMINISTRAD  CxP a Administrador 3.000.000.         0.0
+                                                                                 0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a                    0.0   3.000.000
+                                                                                            .0
+
+
+         0000000106 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         ADMINISTRAD  CxP a Administrador        0.0   3.000.000
+                                                                                            .0
+
+
+       51109501   OTROS                ADMINISTRAD  GASTOS              3.000.000.         0.0
+                                                                                 0
+
+
+                                SUBTOTAL para Febrero 16 de 2003       6.000.      6.000.000.0
+
+
+
+
+
+
+
+
+        Junio  9 de 2003 Hora 14:48:35.26                                            Página 21
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Movimientos de:  Febrero 17 de 2003
+
+         0000000163 dePAGOS
+
+       23200101   CONTRATISTAS         LLANTAS Y    CxP a Llantas Y      134.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Llantas Y          0.0   134.000.0
+
+
+         0000000065 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         LLANTAS Y    CxP a Llantas Y            0.0   134.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   134.000.0
+
+
+                                SUBTOTAL para Febrero 17 de 2003         134.        402.000.0
+
+
+        Movimientos de:  Febrero 18 de 2003
+
+         0000000191 dePAGOS
+
+       23200101   CONTRATISTAS         RESTAURANTE  CxP a Restaurante    100.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Restaurante        0.0   100.000.0
+
+
+         0000000093 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         RESTAURANTE  CxP a Restaurante          0.0   100.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   100.000.0
+
+
+                                SUBTOTAL para Febrero 18 de 2003         100.        300.000.0
+
+
+        Movimientos de:  Febrero 24 de 2003
+
+         0000000192 dePAGOS
+
+       23200101   CONTRATISTAS         RESTAURANTE  CxP a Restaurante    298.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Restaurante        0.0   298.000.0
+
+
+         0000000094 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         RESTAURANTE  CxP a Restaurante          0.0   298.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   298.000.0
+
+
+                                SUBTOTAL para Febrero 24 de 2003         298.        894.000.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Junio  9 de 2003 Hora 14:48:35.26                                            Página 22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Movimientos de:  Marzo 7 de 2003
+
+         0000000169 dePAGOS
+
+       23200101   CONTRATISTAS         BOMBAS Y     CxP a Bombas Y        30.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Bombas Y           0.0    30.000.0
+
+
+         0000000071 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         BOMBAS Y     CxP a Bombas Y             0.0    30.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0    30.000.0
+
+
+                                SUBTOTAL para Marzo 7 de 2003             30.         90.000.0
+
+
+        Movimientos de:  Marzo 8 de 2003
+
+         0000000204 dePAGOS
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro    504.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Servicentro        0.0   504.000.0
+
+
+         0000000205 dePAGOS
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro   1.473.500.         0.0
+                                                                                 0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Servicentro        0.0   1.473.500
+                                                                                            .0
+
+
+         0000000104 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro          0.0   1.473.500
+                                                                                            .0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   1.473.500
+                                                                                            .0
+
+
+         0000000105 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         SERVICENTRO  CxP a Servicentro          0.0   504.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   504.000.0
+
+
+                                SUBTOTAL para Marzo 8 de 2003          1.977.      5.932.500.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Junio  9 de 2003 Hora 14:48:35.28                                            Página 23
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Movimientos de:  Marzo 11 de 2003
+
+         0000000162 dePAGOS
+
+       23200101   CONTRATISTAS         LLANTAS Y    CxP a Llantas Y       75.000.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Llantas Y          0.0    75.000.0
+
+
+         0000000064 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         LLANTAS Y    CxP a Llantas Y            0.0    75.000.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0    75.000.0
+
+
+                                SUBTOTAL para Marzo 11 de 2003            75.        225.000.0
+
+
+        Movimientos de:  Marzo 22 de 2003
+
+         0000000161 dePAGOS
+
+       23200101   CONTRATISTAS         LLANTAS Y    CxP a Llantas Y      120.400.0         0.0
+
+
+       11100501   BANCO AGRARIO        HERGON AGRO  PAGO  a Llantas Y          0.0   120.400.0
+
+
+         0000000063 deCONT. SERVICIOS-CULTIVO
+
+       23200101   CONTRATISTAS         LLANTAS Y    CxP a Llantas Y            0.0   120.400.0
+
+
+       72010301   CONTRATOS Y          HERGON AGRO  COSTO CONTRATO             0.0   120.400.0
+
+
+                                SUBTOTAL para Marzo 22 de 2003           120.        361.200.0
+
+
+        Movimientos de:  Mayo 30 de 2003
+
+         0000000340 deTRASLADOS
+
+       71010101   SEMILLA              HERGON AGRO  Traslado a Inv.            0.0   -7.994.69
+                                                                                           6.0
+
+
+       71010102   FERTILIZANTES        HERGON AGRO  Traslado a Inv.            0.0   22.969.02
+                                                                                           6.0
+
+
+       71010103   FUNGICIDAS           HERGON AGRO  Traslado a Inv.            0.0   7.516.146
+                                                                                            .0
+
+
+       71010104   HERBICIDAS           HERGON AGRO  Traslado a Inv.            0.0   16.010.86
+                                                                                           9.0
+
+
+       71010108   INSECTICIDAS         HERGON AGRO  Traslado a Inv.            0.0   3.247.634
+                                                                                            .0
+
+
+       72010101   SALARIOS             HERGON AGRO  Traslado a Inv.            0.0   13.949.00
+                                                                                           0.0
+
+
+       72010601   OTROS AUXILIOS       HERGON AGRO  Traslado a Inv.            0.0   259.492.0
+
+
+       14250101   Arroz                HERGON AGRO  Traslado a Inv.     55.957.471         0.0
+
+
+
+        Junio  9 de 2003 Hora 14:48:35.28                                            Página 24
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                .0
+
+
+         0000000341 deTRASLADOS
+
+       14250101   Arroz                HERGON AGRO  Traslado a Prod.           0.0   55.957.47
+                                                                                           1.0
+
+
+       14301501   Arroz                HERGON AGRO  Traslado a Prod.    55.957.471         0.0
+                                                                                .0
+
+
+         0000000342 deVENTA PRODUCCION CULTIVO
+
+       13050501   NOMBRE DEL DEUDOR    VICTOR       CxC-Produccion a    315.751.42         0.0
+                                                                               4.9
+
+
+       11050501   CAJA GENERAL         HERGON AGRO  Venta de Prod.      315.751.42         0.0
+                                                                               4.9
+
+
+       14301501   Arroz                HERGON AGRO  Costo Venta Prod.          0.0   55.957.47
+                                                                                           1.0
+
+
+                                       HERGON AGRO  Salida Cultivo      55.957.471         0.0
+                                                                                .0
+
+
+                                SUBTOTAL para Mayo 30 de 2003        799.375.    167.872.413.0
+
+
+                                                                   Débitos               Créditos
+
+                               TOTAL  EN COMPROBANTES           147.293.087.9          147.014.103.9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Junio  9 de 2003 Hora 14:48:35.28                                            Página 25
+
+

@@ -1,0 +1,4 @@
+
+Validar la base de datos    SACFADB:
+Regenerando el índice estructural....  Se ha regenerado el índice.
+El contenedor de base de datos es válido.

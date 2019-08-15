@@ -1,0 +1,49 @@
+v_file = sys(5)+sys(2003)+"\copias\base.zip"
+v_destino = sys(5)+sys(2003)
+if file(v_file) and file(sys(5)+sys(2003)+"\descom32.dll")
+	v_si = aunzip(.t.,v_file,v_destino,"*.*","DOA")
+	use lotesfin in 0
+	use infculti in 0
+	use insaplica in 0
+	select cantotal/area as cantaplic1,codinsap from insaplica inner join infculti inner join lotesfin on ;
+		insaplica.numcontrol=infculti.numcontrol on infculti.codlote=lotesfin.codlote ;
+		where cantaplic>9999 order by codinsap into cursor c_insaplic
+	select c_insaplic
+	go top
+	scan
+	update insaplica set cantaplic=c_insAplic.cantaplic1 where cantaplic>9999 and insaplica.codinsap =c_insaplic.codinsap
+	endscan
+	use in lotesfin
+	use in infculti
+	use in insaplica
+	if v_si>0
+		v_si = Messagebox("Se corrigio el archivo de graficos."+chr(13)+"Adicionalmente Desea corregir la base de datos?",36,"Corregir?")
+		IF v_si =6
+			IF file("sacfa.exe")
+*!*					Clear events
+*!*					close database
+				si = aunzip(.t.,v_file,v_destino,"s*.*","DOA")	
+				if si>0
+				 	Messagebox("Se corrigio la base de datos.",64,"Corregido")							
+				endif 				
+*!*					QUIT
+			endif
+
+		endif
+
+	endif
+else
+	Messagebox("No se encontro el archivo",64,"Falta Archivo")
+endif
+
+select count(*) as cuantos from compins where codfact==0 into cursor c_cuantos
+if c_cuantos.cuantos>0
+	select sum(total) as total from compins group by codfact where codfact=0 into cursor c_fact
+	select count(*) as cuantos from facins where totafac=c_fact.total into cursor c_fsindetalle
+	if c_fsindetalle.cuantos>0
+		select codfact from facins where totafc=c_fact.total into cursor c_fsindetalle
+		update compins set codfact= c_fsindetalle.codfact where codfact=0
+		Messagebox("FActura sin detalle corregida",32,"Corregido" )
+	endif	
+endif
+

@@ -1,0 +1,121 @@
+SET SAFETY OFF
+SET TALK OFF
+*** programa limpia bases  - todas  ****
+
+IF salir = .F. then
+    FOR i = 1 TO 400
+        lsd = "Use in " + ALLTRIM(STR(i))
+        &lsd
+    ENDFOR
+    salir = .T.
+ENDIF
+USE nomina EXCLUSIVE
+PACK
+USE planilla EXCLUSIVE
+PACK
+USE planicab EXCLUSIVE
+PACK
+USE novedades EXCLUSIVE
+PACK
+USE ubica EXCLUSIVE
+PACK
+USE lotesfin EXCLUSIVE
+PACK
+USE asig_nom EXCLUSIVE
+PACK
+USE facins EXCLUSIVE
+PACK
+USE compins EXCLUSIVE
+PACK
+USE aplica EXCLUSIVE
+PACK
+USE auxapli EXCLUSIVE
+PACK
+USE auxcomb EXCLUSIVE
+PACK
+USE labculti EXCLUSIVE
+PACK
+USE procion EXCLUSIVE
+PACK
+USE jorculti EXCLUSIVE
+PACK
+USE maqculti EXCLUSIVE
+PACK
+USE infculti EXCLUSIVE
+PACK
+USE dfechas EXCLUSIVE
+PACK
+USE insaplica EXCLUSIVE
+PACK
+USE ventas EXCLUSIVE
+PACK
+USE auplx EXCLUSIVE
+PACK
+USE auxreco EXCLUSIVE
+PACK
+USE iprov EXCLUSIVE
+PACK
+USE canval EXCLUSIVE
+PACK
+USE invimpr EXCLUSIVE
+PACK
+USE insumo EXCLUSIVE
+PACK
+USE ufc EXCLUSIVE
+PACK
+USE auxufc EXCLUSIVE
+PACK
+USE maquinas EXCLUSIVE
+PACK
+USE maqmant EXCLUSIVE
+PACK
+USE teminvp EXCLUSIVE
+PACK
+USE cpg EXCLUSIVE
+PACK
+USE años EXCLUSIVE
+PACK
+USE cospor EXCLUSIVE
+PACK
+USE costot EXCLUSIVE
+PACK
+USE cpd EXCLUSIVE
+PACK
+USE cpdtemp EXCLUSIVE
+ZAP
+USE renren EXCLUSIVE
+PACK
+USE regeinsumo EXCLUSIVE
+ZAP
+USE combust EXCLUSIVE
+PACK
+
+
+*!*	USE reco1 Exclusive
+*!*	ZAP
+**************
+FOR i = 1 TO 400
+    lsd = "Use in " + ALLTRIM(STR(i))
+    &lsd
+ENDFOR
+
+CLOSE DATABASE ALL
+CLOSE TABLES
+CLOSE INDEX
+CLOSE ALL
+_VFP.APPLICATION.VISIBLE = .T.
+IF indexo
+    cuancdx = ADIR(cdxs, '*.cdx')
+    FOR ncount = 1 TO cuancdx  && Bucle para número de bases de datos
+        archivo=LEFT(cdxs(ncount,1),LEN(cdxs(ncount,1))-4)
+        archivo1=archivo+".dbf"
+        IF FILE(archivo1)
+            USE &archivo EXCLU
+            REINDEX  && Muestra nombres de base de datos
+            USE IN &archivo
+        ENDIF
+    ENDFOR
+ENDIF
+
+CLEAR EVENTS
+QUIT

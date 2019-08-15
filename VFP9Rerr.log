@@ -1,0 +1,5 @@
+
+
+Fatal error: Exception code=C0000005 @ 05/02/2012 09:11:25 PM. Error log file: Z:\SACFA_2011\SACFAlLITE\VFP9Rerr.log
+	Called from -  w_resu.con_btninfo1.btn_informe.click line 65  {z:\sacfa_2011\sacfallite\resufin.sct z:\sacfa_2011\sacfallite\resufin.sct}
+	Called from -  sacfa line 172  {Z:\SACFA_2011\SACFAlLITE\sacfa.prg z:\sacfa_2011\sacfallite\sacflite.exe}

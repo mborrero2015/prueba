@@ -1,0 +1,6 @@
+SELECT Insaplica.cantaplic, Tipinsu.tipinsumo, Insumo.nominsum;
+ FROM  sacfadb!insaplica INNER JOIN sacfadb!tipinsu;
+    INNER JOIN sacfadb!insumo ;
+   ON  Tipinsu.codtipo = Insumo.codtipo ;
+   ON  Insaplica.codtipo = Tipinsu.codtipo;
+ ORDER BY Tipinsu.tipinsumo, Insumo.nominsum

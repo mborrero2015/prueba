@@ -1,0 +1,104 @@
+************************ ACTUALIZANDO PUC1  PAR INFORMES *****************
+******************************************************************************
+
+
+IF SELECT("CPD") <> 0
+    USE IN CPD
+ENDIF
+
+SELECT 109
+USE CPD
+SET ORDER TO 1
+
+IF SELECT("CPG") <> 0
+    USE IN CPG
+ENDIF
+
+SELECT 104
+USE CPG
+SELECT CPG
+
+SET FILTER TO
+GO TOP
+
+IF g_numcontrol > 0
+&& AND (&cualot)
+    SELECT * FROM CPG WHERE ALLTRIM(CPG.CODCC) == g_codcc ; 
+        AND CPG.fecha >= g_feccon2 AND CPG.fecha <= g_feccon1 and cierre!=.t. ;
+        INTO CURSOR AUXCPG ORDER BY CPG.fecha
+ELSE
+    IF g_numcontrol = -1 AND g_codcc != "1"
+        *********** ***********  *********** ***********  *********** ***********  *********** ***********
+        *  Este select es para sacar un balance de prueba con todos los lotes del centro de
+        *  costo de la finca
+        *********** ***********  *********** ***********  *********** ***********  *********** ***********
+
+        SELECT * FROM CPG WHERE LEFT(ALLTRIM(CPG.CODCC),4) == g_codcc AND ;
+            CPG.fecha >= g_feccon2 AND CPG.fecha <= g_feccon1 and cierre!=.t.;
+            INTO CURSOR AUXCPG ORDER BY CPG.fecha
+
+    ELSE
+        IF g_numcontrol = -2
+
+            SELECT * FROM CPG INTO CURSOR AUXCPG;
+                ORDER BY CPG.fecha 
+        ELSE
+
+            SELECT * FROM CPG INTO CURSOR AUXCPG;
+                ORDER BY CPG.fecha WHERE CPG.fecha >= g_feccon2 AND ;
+                CPG.fecha <= g_feccon1 and cierre!=.t.
+        ENDIF
+    ENDIF
+ENDIF
+
+
+IF g_numcontrol != -2
+
+    SELECT CPD.fechacp AS fecha, CPD.detalle, CPD.codcontabl, ;
+        CPD.db, CPD.cr, CPD.codcp FROM CPD ;
+        INNER JOIN AUXCPG ON CPD.codcp = AUXCPG.codcp;
+        where cierre!=.t. INTO CURSOR AUXCPD ORDER BY CPD.codcontabl, CPD.fechacp
+
+ELSE
+
+    SELECT CPD.fechacp AS fecha, CPD.detalle, CPD.codcontabl, ;
+        CPD.db, CPD.cr, CPD.codcp FROM CPD ;
+        INNER JOIN CPG ON CPD.codcp = CPG.codcp;
+        where cierre!=.t. INTO CURSOR AUXCPD ORDER BY CPD.codcontabl, CPD.fechacp
+ENDIF
+
+
+IF SELECT("Puc1") <> 0
+    USE IN PUC1
+ENDIF
+
+*!*	SELECT 114
+*!*	USE PUC1
+
+UPDATE PUC1 SET mdebito = 0, mcredito = 0
+*!*	SET ORDER TO 1
+
+*!*	SELECT AUXCPD
+*!*	GO TOP
+
+*!*	DO WHILE !EOF()
+*!*	    g_actual = RECNO()
+*!*	    SELECT PUC1
+*!*	    SEEK AUXCPD.codcontabl
+
+*!*	    REPLACE PUC1.mdebito WITH  PUC1.mdebito  + AUXCPD.db
+*!*	    REPLACE PUC1.mcredito WITH PUC1.mcredito + AUXCPD.cr
+
+*!*	    SELECT AUXCPD
+*!*	    GO g_actual
+*!*	    SKIP
+*!*	ENDDO
+
+select codcontabl,sum(db) as db,sum(cr) as cr from auxcpd group by codcontabl order by codcontabl into cursor cAuxcpd
+select cAuxcpd
+go top
+do while !EOF()
+	update puc1 set mdebito=cAuxcpd.db, mcredito=cAuxcpd.cr where allt(cAuxcpd.codcontabl)==allt(puc1.codcontabl)
+	skip
+enddo
+*!*	USE IN PUC1

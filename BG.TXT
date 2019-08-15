@@ -1,0 +1,200 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                             0                   0
+
+
+  1            ACTIVO                                                        0       2.603.462.432
+
+
+                                                                             0                   0
+
+
+  11             Disponible                                                  0              70.088
+
+
+  1105             Caja                                                      0              70.088
+
+
+  13             Deudores                                                    0       2.595.773.339
+
+
+  1305             Clientes                                                  0       2.595.773.339
+
+
+  14             Inventarios                                                 0           7.619.005
+
+
+  1405             Materias primas                                           0           7.358.674
+
+
+  1425             Cultivos en desarrollo                                    0             260.331
+
+
+                                                                             0                   0
+
+
+  2            PASIVO                                                        0       3.014.272.792
+
+
+                                                                             0                   0
+
+
+  22             Proveedores                                                 0       3.027.843.740
+
+
+  2205             Nacionales                                                0       3.027.843.740
+
+
+  23             Cuentas por pagar                                           0         -13.570.947
+
+
+  2320             A contratistas                                            0         -13.570.947
+
+
+                                                                             0                   0
+
+
+  4            INGRESOS                                                      0      -2.595.773.339
+
+
+                                                                             0                   0
+
+
+  41             Operacionales                                               0      -2.595.773.339
+
+
+  4105             Agricultura, ganadería, caza y                            0      -2.595.773.339
+
+
+                                                                             0                   0
+
+
+  6            COSTOS DE VENTAS                                              0       3.006.583.699
+
+
+                                                                             0                   0
+
+
+  61             Costo de ventas y de prestación de                          0       3.006.583.699
+
+
+ Febrero  2 de 2004 Hora 19:53:16.60                                                      Página.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  6105             Agricultura, ganadería, caza y                            0       3.006.583.699
+
+
+                                                                             0                   0
+
+
+  7            COSTOS DE PRODUCCIÓN O DE OPERACIÓN                           0             260.331
+
+
+                                                                             0                   0
+
+
+  71             Materia prima                                               0             260.331
+
+
+  7105              COSTO DE MATERIA PRIMA                                   0             260.331
+
+
+                                                                             0                   0
+
+
+  ÿ            ** PASIVO  +  PATRIMONIO...                                   0       3.425.343.483
+
+
+                                                                             0                   0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Febrero  2 de 2004 Hora 19:53:16.60                                                      Página.
+
+
+

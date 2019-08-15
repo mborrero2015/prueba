@@ -1,0 +1,444 @@
+************************************************************************
+*Procedimiento que permite calcular BALANCE DE PRUEBA.
+
+
+SET SAFETY OFF
+SET NEAR ON
+
+PRIVATE a,b,m,pant,cactual,auxcod,prov,auxnum1,qreg,qrfin,lini,lifin,finca
+PRIVATE campos[2],titulos[2]
+
+IF SELECT ("bpi1") != 0
+	USE IN bpi1
+ENDIF
+
+USE bpi1 IN 0 EXCLUSIVE
+SELECT bpi1
+ZAP
+
+IF  SELECT ("IPROV") = 0
+	SELECT 18
+	USE iprov
+ENDIF
+SELECT iprov
+SET ORDER TO  1
+
+
+SELECT 58
+USE puc
+INDEX ON clase+grp+cuenta+subcuenta TO ppupc
+
+SELECT 115
+USE bp EXCLUSIVE
+ZAP
+
+IF SELECT("puc1")<> 0
+	SELECT 114
+	SELECT puc1
+ELSE
+	SELECT 114
+	USE puc1
+ENDIF
+GO TOP
+****************** PAsar la cuenta 59 a lacuenta 3
+
+*****************   CALCULANDO SALDO FINAL SIN CIERRES ***************
+
+REPLACE puc1.saldotr1 WITH (puc1.saldoinic + puc1.mdebito - puc1.mcredito) ALL
+
+SUM ROUND(puc1.saldotr1,5) TO cero
+
+IF round(cero,0) <> 0
+	MESSAGEBOX("Este balance no presenta Sumas Iguales!",0,"** BALANCE DESCUADRADO **")
+ENDIF
+
+GO TOP
+
+&&//// CALCULANDO SALDO FINAL CON CIERRES ////////
+
+
+INDEX ON puc1.codcontabl TAG cconta OF puucc1 DESCENDING
+GO TOP
+
+REPLACE puc1.cdb WITH 0 ALL
+REPLACE puc1.ccr WITH 0 ALL
+
+cupasos = 0
+DO WHILE .T.
+	GO TOP
+
+	REPLACE puc1.saldotr2 WITH puc1.saldotr1 + puc1.cdb - puc1.ccr ALL
+
+	COUNT FOR puc1.ctacierre <> SPAC(10) .AND. puc1.saldotr2 <> 0 TO cuantas
+	GO TOP
+
+
+	IF cuantas > 0 AND cupasos < RECCOUNT()
+
+
+		DO WHILE !EOF()
+
+
+			IF puc1.ctacierre <> SPAC(10)
+				nureg = RECNO()
+				cuentac = puc1.codcontabl
+				mrec = 0
+				SKIP
+				DO WHILE !EOF()
+					nureg2 = RECNO()
+					REPLACE puc1.saldotr2 WITH puc1.saldotr1 + puc1.cdb - puc1.ccr
+
+					IF puc1.ctacierre = cuentac AND puc1.saldotr2<>0
+						mrec = mrec + puc1.saldotr2
+						
+						IF puc1.saldotr2 > 0
+							REPLACE puc1.ccr WITH puc1.ccr+puc1.saldotr2
+						ELSE
+							REPLACE puc1.cdb WITH puc1.cdb+ABS(puc1.saldotr2)
+						ENDIF
+					ENDIF
+					GO nureg2
+					SKIP
+				ENDDO
+				GO nureg
+				IF mrec > 0
+					REPLACE puc1.cdb WITH puc1.cdb + mrec
+				ELSE
+					IF mrec < 0
+						REPLACE puc1.ccr WITH puc1.ccr + ABS(mrec)
+					ENDIF
+				ENDIF
+
+				REPLACE puc1.saldotr2 WITH puc1.saldotr1 + puc1.cdb - puc1.ccr
+
+				IF puc1.saldotr2 > 0
+					REPLACE puc1.ccr  WITH puc1.ccr + puc1.saldotr2
+				ELSE
+					IF puc1.saldotr2 < 0
+						REPLACE puc1.cdb WITH puc1.cdb + ABS(puc1.saldotr2)
+					ENDIF
+				ENDIF
+				mmcta = puc1.codcontabl
+				mrec = puc1.saldotr2
+
+				SEEK puc1.ctacierre
+				IF FOUND()
+					
+					IF mrec > 0
+						REPLACE puc1.cdb WITH puc1.cdb + mrec
+					ELSE
+
+						IF mrec < 0
+							REPLACE puc1.ccr WITH puc1.ccr + ABS(mrec)
+						ENDIF
+
+					ENDIF
+				ENDIF
+				GO nureg
+			ENDIF
+			SKIP
+		ENDDO
+		cupasos = cupasos + 1
+	ELSE
+		EXIT
+	ENDIF
+
+ENDDO
+
+IF cuantas > 0
+	MESSAGEBOX("Al usar cuentas para cierre," + CHR(13)+ ;
+		"    hay inconsistencias!",16," ** CUENTAS CICLICAS ** ")
+ENDIF
+
+
+USE IN puc1
+
+SELECT 114
+USE puc1
+
+GO TOP
+
+SET RELATION TO puc1.codprov INTO 18
+INDEX ON puc1.codcontabl TO ppuc2  &&//Indices por CODCONTABL
+GO TOP
+
+&&/////////  PASANDO A BP.DBF ///////////
+
+
+DO WHILE !EOF()
+	*!*    IF PUC1.SALDOTR1 <> 0 .OR. PUC1.SALDOTR2 <> 0
+	IF puc1.mdebito <> 0 .OR. puc1.mcredito <> 0 OR ;
+			puc1.saldotr1 <> 0 .OR. puc1.saldotr2 <> 0
+
+		SELECT 115
+		APPEND BLANK
+		REPLACE bp.codcontabl WITH puc1.codcontabl
+		REPLACE bp.nombrecta WITH  LEFT(SPAC(1-LEN(ALLTRIM(puc1.original)))+ALLTRIM(ALLTRIM(iprov.nombprov)+' '+ALLTRIM(puc1.nombrecta))+SPAC(100),100)
+
+		IF puc1.saldotr1>0
+			REPLACE bp.sfdb WITH puc1.saldotr1
+		ELSE
+			REPLACE bp.sfcr WITH ABS(puc1.saldotr1)
+		ENDIF
+
+		IF g_codcc = "1"
+			IF puc1.saldotr2>0
+				REPLACE bp.scdb WITH puc1.saldotr2
+			ELSE
+				REPLACE bp.sccr WITH ABS(puc1.saldotr2)
+			ENDIF
+		ENDIF
+
+		REPLACE bp.sfdb WITH puc1.mdebito
+		REPLACE bp.sfcr WITH puc1.mcredito
+
+		IF g_codcc = "1"
+			IF puc1.saldoinic > 0
+				REPLACE bp.sadb WITH puc1.saldoinic
+			ELSE
+				REPLACE bp.sacr WITH ABS(puc1.saldoinic)
+			ENDIF
+		ENDIF
+
+		SELECT 114
+	ENDIF
+	SKIP
+ENDDO
+**********arreglo para que saque en el balance de prueba las perdidas y ganancias en la cuenta 3 bien sea perdida o ganancia
+
+select scdb-sccr as result from bp where codcontabl="59050501" into cursor cresultado
+if cresultado.result >=0
+	select count(*) as conta from bp where left(codcontabl,1)="3" into cursor cpatri
+	if cpatri.conta>0
+		select count(*) as conta from bp where left(codcontabl,4) = "3610" into cursor cpatri2
+		if cpatri2.conta>0
+			select recno() from bp where codcontabl="36100501" into array areg
+			update bp set scdb=cresultado.result  where recno()=areg
+			*update bp set scdb=0, sccr=0  where left(codcontabl,1)="5"
+		endif
+	else
+		select 115
+		append blank
+		REPLACE bp.codcontabl WITH "36100501"
+		REPLACE bp.scdb WITH abs(cresultado.result)
+		*update bp set scdb=0, sccr=0 where left(codcontabl,2)="59"
+
+		select top 1 nombrecta from puc1 where allt(codcontabl)="36100501" order by nombrecta into array acta
+		if _tally >0
+			REPLACE bp.nombrecta WITH acta
+		endif
+		INDEX ON codcontabl TO icuentas
+	endif
+else
+	select count(*) as conta from bp where left(codcontabl,1)="3" into cursor cpatri
+	if cpatri.conta > 0
+		select count(*) as conta from bp where left(codcontabl,4) = "3605" into cursor  cpatri2
+		if cpatri2.conta>0
+			select recno() from bp where codcontabl="36050501" into array areg
+			update bp set scdb=cresultado.result  where recno()=areg
+			*update bp set scdb=0, sccr=0  where left(codcontabl,1)="5" and len(
+		endif
+	else
+		select 115
+		append blank
+		REPLACE bp.codcontabl WITH "36100501"
+		REPLACE bp.sccr WITH abs(cresultado.result)
+		*update bp set scdb=0, sccr=0  where left(codcontabl,1)="5"
+		select top 1 nombrecta from puc1 where allt(codcontabl)="36100501" order by nombrecta into array acta
+		if _tally >0
+			REPLACE bp.nombrecta WITH acta
+		endif
+		INDEX ON codcontabl TO icuentas
+	endif
+endif
+
+**** Quitar la cuenta 59 al pasarla al pasivo
+delete from bp 	where left(codcontabl,2)="59"
+select count(*) from bp where left(codcontabl,1)="5" into cursor cgastos
+if 	cgastos.cnt =1
+	delete from bp where left(codcontabl,1)="5"
+endif
+
+
+
+****
+********************************************************
+SELECT 115
+SUM bp.sfdb, bp.sfcr, bp.scdb, bp.sccr, bp.sadb, bp.sacr  ;
+	TO sfdb1, sfcr1, scdb1, sccr1,sadb1, sacr1
+
+APPEND BLANK
+REPLACE bp.codcontabl WITH ">>>>>>>>>>"
+APPEND BLANK
+REPLACE bp.codcontabl WITH ">>>>>>>>>>"
+
+REPLACE bp.nombrecta WITH  ">>>>>>  Resultado -. $$"
+
+REPLACE bp.sfdb WITH sfdb1
+REPLACE bp.sfcr WITH sfcr1
+REPLACE bp.scdb WITH scdb1
+REPLACE bp.sccr WITH sccr1
+REPLACE bp.sadb WITH sadb1
+REPLACE bp.sacr WITH sacr1
+
+DO impre2
+
+RETURN
+
+
+
+
+PROCEDURE impre2
+
+	SELECT 115
+	GO TOP
+	claimp = SPAC(1)
+	grpimp = SPAC(2)
+	ctaimp = SPAC(4)
+	sbctaimp = SPAC(6)
+
+	DO WHILE !EOF()
+
+		IF claimp <> LEFT(bp.codcontabl,1)
+
+			INSERT INTO bpi1.DBF (aa1);
+				VALUES (" ")
+
+			claimp = LEFT(bp.codcontabl,1)
+			SELECT 58
+			SEEK LEFT(bp.codcontabl,1)
+			IF FOUND() .AND. LEN(ALLTRIM(LEFT(bp.codcontabl,1)))=1
+				a1 = claimp
+				a2 = ALLTRIM(UPPER(LEFT(puc.denomina,60)))
+				SELECT SUM(sfdb)AS sfdb1, SUM(sfcr) AS sfcr1, SUM(scdb)AS scdb1,;
+					SUM(sccr) AS sccr1, SUM(sadb)AS sadb1, SUM(sacr) AS sacr1;
+					FROM bp WHERE VAL(ALLTRIM(LEFT(bp.codcontabl,1))) = ;
+					VAL(ALLTRIM(claimp)) AND ! DELETE() INTO CURSOR cur_suma
+
+
+				c1 = cur_suma.sfdb1
+				c2 = cur_suma.sfcr1
+				c3 = cur_suma.scdb1
+				c4 = cur_suma.sccr1
+				c5 = cur_suma.sadb1
+				c6 = cur_suma.sacr1
+
+				INSERT INTO bpi1.DBF (aa1, aa2, cc1, cc2, cc3, cc4, cc5, cc6);
+					VALUES (a1, a2, c1, c2, c3, c4, c5, c6)
+
+
+			ENDIF
+		ENDIF
+
+		IF grpimp <> LEFT(bp.codcontabl,2)
+			grpimp = LEFT(bp.codcontabl,2)
+			SELECT 58
+			SEEK LEFT(bp.codcontabl,2)
+			IF FOUND() .AND. LEN(ALLTRIM(LEFT(bp.codcontabl,2)))=2
+				a1 = grpimp
+				a2 = SPAC(1)+UPPER(LEFT(puc.denomina,58))
+				SELECT SUM(sfdb)AS sfdb1, SUM(sfcr) AS sfcr1, SUM(scdb)AS scdb1,;
+					SUM(sccr) AS sccr1, SUM(sadb)AS sadb1, SUM(sacr) AS sacr1;
+					FROM bp WHERE VAL(ALLTRIM(LEFT(bp.codcontabl,2))) = ;
+					VAL(ALLTRIM(grpimp)) AND ! DELETE() INTO CURSOR cur_suma
+
+
+				c1 = cur_suma.sfdb1
+				c2 = cur_suma.sfcr1
+				c3 = cur_suma.scdb1
+				c4 = cur_suma.sccr1
+				c5 = cur_suma.sadb1
+				c6 = cur_suma.sacr1
+
+				INSERT INTO bpi1.DBF (aa1, aa2, cc1, cc2, cc3, cc4, cc5, cc6);
+					VALUES (a1, a2, c1, c2, c3, c4, c5, c6)
+
+			ENDIF
+		ENDIF
+
+		IF ctaimp <> LEFT(bp.codcontabl,4)
+			ctaimp = LEFT(bp.codcontabl,4)
+			SELECT 58
+			SEEK LEFT(bp.codcontabl,4)
+			IF FOUND() .AND. LEN(ALLTRIM(LEFT(bp.codcontabl,4))) = 4
+				a1 = ctaimp
+				a2 = SPAC(2) + UPPER(LEFT(puc.denomina,56))
+				SELECT SUM(sfdb)AS sfdb1, SUM(sfcr) AS sfcr1, SUM(scdb)AS scdb1,;
+					SUM(sccr) AS sccr1, SUM(sadb)AS sadb1, SUM(sacr) AS sacr1;
+					FROM bp WHERE VAL(ALLTRIM(LEFT(bp.codcontabl,4))) = ;
+					VAL(ALLTRIM(ctaimp)) AND ! DELETE() INTO CURSOR cur_suma
+
+
+				c1 = cur_suma.sfdb1
+				c2 = cur_suma.sfcr1
+				c3 = cur_suma.scdb1
+				c4 = cur_suma.sccr1
+				c5 = cur_suma.sadb1
+				c6 = cur_suma.sacr1
+
+				INSERT INTO bpi1.DBF (aa1, aa2, cc1, cc2, cc3, cc4, cc5, cc6);
+					VALUES (a1, a2, c1, c2, c3, c4, c5, c6)
+
+			ENDIF
+		ENDIF
+
+		IF LEN(ALLTRIM(bp.codcontabl)) > 6
+			IF sbctaimp <> LEFT(bp.codcontabl,6)
+				sbctaimp = LEFT(bp.codcontabl,6)
+				SELECT 58
+				SEEK LEFT(bp.codcontabl,6)
+				IF FOUND() .AND. LEN(ALLTRIM(LEFT(bp.codcontabl,6))) = 6
+					a1 = sbctaimp
+					a2 = SPAC(3)+UPPER(LEFT(puc.denomina,54))
+
+					INSERT INTO bpi1.DBF (aa1, aa2);
+						VALUES (a1, a2)
+
+				ENDIF
+			ENDIF
+		ENDIF
+
+		SELECT 115
+		a1 = bp.codcontabl
+		a2 = SPAC(4)+ LEFT(bp.nombrecta,60)
+		c1 = bp.sfdb
+		c2 = bp.sfcr
+		c3 = bp.scdb
+		c4 = bp.sccr
+		c5 = bp.sadb
+		c6 = bp.sacr
+
+		INSERT INTO bpi1.DBF (aa1, aa2, cc1, cc2, cc3, cc4, cc5, cc6);
+			VALUES (a1, a2, c1, c2, c3, c4, c5, c6)
+
+		SKIP
+	ENDDO
+
+
+	***Hacer que las operaciones en el saldo def. sean solo deb o cred
+	set step on
+	select count(*) from bpi1 where (cc5+cc1)>0 or (cc6+cc2)>0 and left(aa1,1)!=">" into cursor cresta
+	
+	if cresta.cnt>0
+		select *,recno()as reg, cc5+cc1-(cc6+cc2) as nat from bpi1 where (cc5+cc1)>0 or (cc6+cc2)>0 and  left(aa1,1)!=">" into cursor cresta
+		select cresta
+		go top
+		do while !EOF()
+			if cresta.nat>0
+				update bpi1 set cc3 = cresta.nat, cc4=0 where recno()=cresta.reg
+				
+			else
+				update bpi1 set cc4 = abs(cresta.nat), cc3=0 where recno()=cresta.reg
+			endif
+		skip
+		enddo
+	endif
+	***
+	IF RECCOUNT("bpi1") > 2
+
+		DO FORM imprimir WITH "bp.frx", ""
+
+	ENDIF
+
+	RETURN
+	************

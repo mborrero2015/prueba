@@ -1,0 +1,15 @@
+PARAMETERS tabla,exclusivo
+IF !USED(tabla)
+	IF exclusivo =.T.
+		USE &tabla EXCLU
+	ELSE
+		USE &tabla
+	ENDIF
+ELSE
+	IF exclusivo =.T.
+		USE IN &TABLA
+		USE &tabla EXCLU
+	ELSE
+		SELECT &tabla
+	ENDIF
+ENDIF

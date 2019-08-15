@@ -1,0 +1,115 @@
+*revisa el ancho de la tabla dfechas en el campo codcp
+*debe ampliarse al 10 esta en 4
+vcambio = .f.
+do usar with "dfechas",.t.
+if fsize("codcp")=4
+	alter table dfechas alter column codcp N(10)
+	vcambio = .t.
+endif
+use in dfechas
+
+do usar with "aplica",.t.
+if fsize("codcp")=4
+	alter table aplica alter column codcp N(10)
+	vcambio = .t.
+endif
+use in aplica
+
+do usar with "auxapli",.t.
+if fsize("codcomp")=4
+	alter table auxapli alter column codcomp N(10)
+	vcambio = .t.
+endif
+if fsize("codinsap")=4
+	alter table auxapli alter column codinsap N(10)
+	vcambio = .t.
+endif
+use in auxapli
+
+
+do usar with "insaplica",.t.
+if fsize("codcp")=4
+	alter table insaplica alter column codcp N(10)
+	vcambio = .t.
+endif
+if fsize("codinsap")=4
+	alter table insaplica alter column codinsap N(10)
+	vcambio = .t.
+endif
+use in insaplica
+
+
+do usar with "auxcomb",.t.
+if fsize("codcomp")=4
+	alter table auxcomb alter column codcomp N(10)
+	vcambio = .t.
+endif
+use in auxcomb
+
+
+do usar with "compins",.t.
+if fsize("codcomp")=7
+	alter table compins alter column codcomp N(10)
+	vcambio = .t.
+endif
+use in compins
+
+do usar with "jorculti",.t.
+if fsize("codcp")=4
+	alter table jorculti alter column codcp N(10)
+	vcambio = .t.
+endif
+use in jorculti
+
+do usar with "labculti",.t.
+if fsize("codcp")=4
+	alter table labculti alter column codcp N(10)
+	vcambio = .t.
+endif
+use in labculti
+
+do usar with "maqculti",.t.
+if fsize("codcp")=4
+	alter table maqculti alter column codcp N(10)
+	vcambio = .t.
+endif
+use in maqculti
+
+do usar with "planicab",.t.
+if fsize("codcp")=4
+	alter table planicab alter column codcp N(10)
+	vcambio = .t.
+endif
+use in planicab
+
+do usar with "resufin",.t.
+if fsize("codcp")=14
+	alter table resufin alter column total  N(18,5)
+endif
+use in resufin
+
+
+if !file("fixtables.ost")
+	mistake = FCREATE("fixtables.ost")
+	IF mistake < 0
+		MESSAGEBOX("Error de Escritura en Disco")
+	ELSE
+		=FWRITE(mistake,"Se realizo la actualizacion de tablas")
+		if vcambio
+			messagebox("Se realizo la actualizacion de tablas",48,"Exito")
+		endif
+	ENDIF
+	=FCLOSE(mistake)
+	set step on
+	on error do messagebox("Saliendo del Programa...",48,"Saliendo..")
+	close all
+	open data sacfadb exclu
+	validate data
+	indexo = .t.
+	clear events
+	quit
+else
+	messagebox("Las tablas ya se encontraban actualizadas",16,"No se ejecuto el comando")
+endif
+
+

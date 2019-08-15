@@ -1,0 +1,200 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1         ACTIVO                                     11.707.877  9.104.61  2.603.462.432
+
+11         DISPONIBLE                                 1.361.525  1.361.39        131.000
+
+1105        CAJA                                      1.361.525  1.361.39        131.000
+
+110505       CAJA GENERAL
+
+11050501       CAJA GENERAL                           1.361.525  1.361.39        131.000
+
+13         DEUDORES                                   2.595.773.339        2.595.773.339
+
+1305        CLIENTES                                  2.595.773.339        2.595.773.339
+
+130505       NACIONALES
+
+13050501       NOMBRE DEL DEUDOR                      2.595.773.339        2.595.773.339
+
+14         INVENTARIOS                                7.750.579  7.743.22      7.558.093
+
+1405        MATERIAS PRIMAS                           1.737.411  1.730.05      7.358.674
+
+140599        Ajustes por inflación                   1.737.411  1.730.05      7.358.674
+
+1425        CULTIVOS EN DESARROLLO                    3.006.583  3.006.58        199.419
+
+14250501       Arroz                                  3.006.583  3.006.58        199.419
+
+1430        PRODUCTOS TERMINADOS                      3.006.583  3.006.583.699
+
+143015       PRODUCTOS AGRÍCOLAS Y FORESTALES
+
+14301501       Arroz                                  3.006.583  3.006.583.699
+
+
+
+2         PASIVO                                      1.339.808  4.354.08     13.57  3.027.843.740
+
+23         CUENTAS POR PAGAR                          1.339.808  4.354.08     13.57  3.027.843.740
+
+2320        A CONTRATISTAS                               31.307  3.059.150.976       3.027.843.740
+
+232005         CONTRATISTAS                              31.307  3.059.150.976       3.027.843.740
+
+2335        COSTOS Y GASTOS POR PAGAR                 1.308.501  1.294.93     13.570.948
+
+233505       GASTOS FINANCIEROS
+
+23350501       NOMBRE DEL GASTO                       1.308.501  1.294.93     13.570.948
+
+
+
+3         PATRIMONIO                                                         410.810.360
+
+36         RESULTADOS DEL EJERCICIO                                          410.810.360
+
+3610        PÉRDIDA DEL EJERCICIO                                            410.810.360
+
+36100501      PERDIDA DEL EJERCICIO                                          410.810.360
+
+
+
+4         INGRESOS                                               2.595.773.339
+
+41         OPERACIONALES                                         2.595.773.339
+
+4105        AGRICULTURA, GANADERÍA, CAZA Y                       2.595.773.339
+
+410505       CULTIVO DE CEREALES
+
+41050501       NOMBRE DEL CULTIVO                                2.595.773.339
+
+
+
+6         COSTOS DE VENTAS                            3.006.583.699
+
+
+
+  Febrero  2 de 2004 Hora 17:56:27.21                                                  Página.  1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+61         COSTO DE VENTAS Y DE PRESTACIÓN DE         3.006.583.699
+
+6105        AGRICULTURA, GANADERÍA, CAZA Y            3.006.583.699
+
+610505       CULTIVO DE CEREALES
+
+61050501       ARROZ                                  3.006.583.699
+
+
+
+7         COSTOS DE PRODUCCIÓN O DE OPERACIÓN         3.006.783  3.006.583.699
+
+72         MANO DE OBRA DIRECTA                       1.922.647  1.922.386.964
+
+7205           COSTO DE MANO DE OBRA DIRECTA          1.922.647  1.922.386.964
+
+73         COSTOS INDIRECTOS                          1.084.135  1.084.196.735
+
+7305           COSTOS INDIRECTOS DE PRODUCCION        1.042.087  1.042.148.696
+
+7345           MANTENIMIENTO Y REPARACIONES              42.048     42.048.040
+
+
+
+>>>>>>>>>>
+
+>>>>>>>>>>    >>>>>>  Resultado -. $$                19.061.053 19.061.05  3.027.84  3.027.843.740
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Febrero  2 de 2004 Hora 17:56:27.21                                                  Página.  2
+
+

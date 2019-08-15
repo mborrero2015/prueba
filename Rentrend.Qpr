@@ -1,0 +1,9 @@
+SELECT Infide.ano, Infide.semestre, Lotesfin.codlote, Lotesfin.nomlote,;
+  Lotesfin.area, Infide.cultivo, Infide.tirsc,;
+  Infide.toneladas/ Lotesfin.area as ton, Infide.codlote;
+ FROM  infide INNER JOIN lotesfin ;
+   ON  Infide.codlote = Lotesfin.codlote;
+ WHERE Infide.codcult = 1;
+ GROUP BY Infide.codlote, Infide.ano;
+ ORDER BY Infide.ano, Infide.semestre, Lotesfin.codlote;
+ INTO TABLE rentrend.dbf

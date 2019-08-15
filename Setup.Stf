@@ -1,0 +1,177 @@
+App Name	xxxxxxxx.xxx	
+App Version	2002-10-08 12:00:37	
+Frame Bitmap		
+Frame Caption	SACFA 3.0 Instalar	
+Dialog Caption Base	SACFA 3.0	
+Usage String	Uso:  InstalaciÛn	
+About Box String	Este programa tiene derechos reservados del\nFondo Nacional del Arroz y \nFederaciÛn Nacional de Arroceros de Colombia   2002\n\n\nEsta instalaciÛn se ha creado mediante el Asistente para instalar de Visual FoxPro.	
+Check Modules	"Fox_4000001,Microsoft Visual FoxPro, graph, MS Graph, ed, MS Draw, msinfo, MS Info, MSOfficeWClass, Microsoft Office Manager, MOM Class, Office Shortcut Bar"	
+Source Directory	D:\	
+MSAPPS Mode	local	
+MSAPPS Connect	server	
+Inf File Name	SETUP.INF	
+Help File Name	ACMSETUP.HLP	
+Setup Status	"nY;ã>j©∞ëï§&èõˆªa«o¿j¶lﬁıJ¨˚]/®kmd€A«Øóõ§‹È'◊Ò∂È¿{û3±üOh≠™ôHOz˙•\Òô}πazÖÌLXÛ∫G÷}¬≈ôiûˇ9Î>Ω®L≤/‘xÏ›Ùïˆ=ã)??rƒ~À#∞BøóLÎM/◊∞?Ô(:U¡∏®›ˆ°ü[öç˝πl˝éÖ¨.J«Ä“G(«6ç™ÆïßX8Ôf˜`"	
+Maximum Object ID	167	
+Admin Mode Root Object ID		
+Floppy Mode Root Object ID	2 : 1	
+Network Mode Root Object ID		
+Maintenance Mode Root Object ID	3 : 1	
+Network Maintenance Mode Root Object ID		
+Batch Mode Root Object ID	2 : 1	
+Suppress Serial Number Dialog		
+Install Date	2003.10.26.22.00.32	
+Setup Version	1.20.0.1915	
+Check Modules2		
+
+
+ObjID	Checkbox State	Title	Description	Object Type	Object Data	Bitmap Id	Vital Attribute	Shared Attribute	Configurable Directory	Destination Directory	Check Directory	Installed By	Install Data	Install Directory
+1			Search for previous versions.	AppSearch	"""C:\SACFA 3.0\"", """", """", 12, ""yes"", ""yes"","					C:\SACFA 3.0\		us		C:\SACFA 3.0\
+2		Floppy Installation		AppMainDlg	5				yes	C:\SACFA 3.0\		us		C:\SACFA 3.0\
+3		Maintenance Installation		CustomDlg	7					C:\SACFA 3.0\				
+5	yes		Instalar todos los archivos para SACFA 3.0	Group	7	"wizset32.dll, 111"						us		C:\SACFA 3.0\
+7	yes	SACFA 3.0	SACFA 3.0 se instalar·.	Group	8 9 11 12 10 15 13 14 154 162							us		C:\SACFA 3.0\
+8			*** SACFA 3.0 Files	CopyFile	"""Application"", ""43231496"""		vital					us		C:\SACFA 3.0\
+9			*** SACFA 3.0 Files	CopySection	Application		vital					us		C:\SACFA 3.0\
+10			*** Ole Custom Controls	Group	164 165		vital			%M		us		C:\WINDOWS\SYSTEM\
+11			*** Program Manager Items	Group	166		vital					us		C:\SACFA 3.0\
+12			System Files	Group	17 18 19 20							nyi		
+13			Microsoft Graph	Group	23							us		C:\SACFA 3.0\
+14				Group	143							us		C:\SACFA 3.0\
+15				Group	133							us		C:\SACFA 3.0\
+17				InstallSysFile	"""System"",""Mfc40Dll"""							nyi		
+18		MFC40.DLL		SelfReg	"""System"", Mfc40Dll"					%M		nyi		
+19				InstallSysFile	"""System"",""Msvcrt20Dll"""							nyi		
+20				InstallSysFile	"""System"",""Msvcrt40NT"""							nyi		
+23				Group	24 32							us		C:\SACFA 3.0\
+24				Group	25 26 27 28 29 30					%H\MSGRAPH5		us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+25				InstallShared	"MS Graph Files,graph5exe,MSGRAPH5,MSGRAPH5,"							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+26				CompanionFile	"25 : MS Graph Files,autoconv"					%25		us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+27				CompanionFile	"25 : MS Graph Files,gren50"					%25		us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+28				CompanionFile	"25 : MS Graph Files,grintl"					%25		us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+29				CompanionFile	"25 : MS Graph Files,graph5reg"					%25		us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+30				Depend	25 ? 52							us	Yes	C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+32				Group	33 34 35 36					%M		us		C:\WINDOWS\SYSTEM\
+33				InstallSysFile	"MS Graph Files, scp"							us		C:\WINDOWS\SYSTEM\
+34				InstallSysFile	"MS Graph Files, sdm"							us		C:\WINDOWS\SYSTEM\
+35				CustomAction	"""wizset32.dll"", ""InstallSys16PermFile"", ""MS Graph Files, scp"""							us		C:\WINDOWS\SYSTEM\
+36				CustomAction	"""wizset32.dll"", ""InstallSys16PermFile"", ""MS Graph Files, sdm"""							us		C:\WINDOWS\SYSTEM\
+38				Group	39 40 41 42					%H\MSGRAPH5				
+39				CompanionFile	"25 : MS Graph Files,MsgraphHlp"									
+40				CustomAction	"wizset32.dlll,RemoveHelpAuxFile,MS Graph Files;MsgraphFts"					%25				
+41				CustomAction	"wizset32.dll,RemoveHelpAuxFile,MS Graph Files;MsgraphGid"					%25				
+42				Depend	39 ? 43									
+43				AddRegData	"""LOCAL"",""Software\Microsoft\Windows\Help"",""MSGRAPH.HLP"",""%s"","""""					%39				
+45				Group	46 47 48 49					%H\MSGRAPH5				
+46				CompanionFile	"25 : MS Graph Files,Vba_grpHlp"									
+47				CustomAction	"wizset32.dll,RemoveHelpAuxFile,MS Graph Files;Vba_grpFts"					%25				
+48				CustomAction	"wizset32.dll,RemoveHelpAuxFile,MS Graph Files;Vba_grpGid"					%25				
+49				Depend	46 ? 50									
+50				AddRegData	"""LOCAL"",""Software\Microsoft\Windows\Help"",""VBA_GRP.HLP"",""%s"","""""					%46				
+52				Group	53 54 55 56 57 108					%H\MSGRAPH5		us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+53				Group	58 59 60 61 62 63 64 65 66 67							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+54				Group	68 69 70 71 72 73 74 75 76 77							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+55				Group	78 79 80 81 82 83 84 85 86 87							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+56				Group	88 89 90 91 92 93 94 95 96 97							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+57				Group	98 99 100 101 102 105							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+58				AddRegData	"""CLASSES"",""MSGraph.Chart.5"","""",""Microsoft Graph 5.0"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+59				AddRegData	"""CLASSES"",""MSGraph.Chart.5\protocol\StdFileEditing\server"","""",""%s\GRAPH5.EXE"","""""					%25		us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+60				AddRegData	"""CLASSES"",""MSGraph.Chart.5\protocol\StdFileEditing\Verb\0"","""",""Edit"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+61				AddRegData	"""CLASSES"",""MSGraph.Chart.5\Insertable"","""","""","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+62				AddRegData	"""CLASSES"",""MSGraph.Chart.5\CLSID"","""",""{00020801-0000-0000-C000-000000000046}"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+63				AddRegData	"""CLASSES"",""CLSID\{00020801-0000-0000-C000-000000000046}"","""",""Microsoft Graph 5.0"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+64				AddRegData	"""CLASSES"",""CLSID\{00020801-0000-0000-C000-000000000046}\Insertable"","""","""","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+65				AddRegData	"""CLASSES"",""CLSID\{00020801-0000-0000-C000-000000000046}\MiscStatus"","""",""1"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+66				AddRegData	"""CLASSES"",""CLSID\{00020801-0000-0000-C000-000000000046}\DataFormats\GetSet\0"","""",""3,1,32,1"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+67				AddRegData	"""CLASSES"",""CLSID\{00020801-0000-0000-C000-000000000046}\DataFormats\GetSet\1"","""",""2,1,16,1"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+68				AddRegData	"""CLASSES"",""CLSID\{00020801-0000-0000-C000-000000000046}\DataFormats\GetSet\2"","""",""1,1,1,1"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+69				AddRegData	"""CLASSES"",""CLSID\{00020801-0000-0000-C000-000000000046}\DataFormats\DefaultFile"","""",""GBiff5"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+70				AddRegData	"""CLASSES"",""CLSID\{00020801-0000-0000-C000-000000000046}\Conversion\Readable\Main"","""",""GBiff5,MSGraph"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+71				AddRegData	"""CLASSES"",""CLSID\{00020801-0000-0000-C000-000000000046}\DefaultIcon"","""",""%s\GRAPH5.EXE,1"","""""					%25		us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+72				AddRegData	"""CLASSES"",""CLSID\{00020801-0000-0000-C000-000000000046}\AuxUserType\2"","""",""Chart"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+73				AddRegData	"""CLASSES"",""CLSID\{00020801-0000-0000-C000-000000000046}\AuxUserType\3"","""",""Microsoft Graph 5.0"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+74				AddRegData	"""CLASSES"",""CLSID\{00020801-0000-0000-C000-000000000046}\Verb\0"","""",""&Edit,0,2"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+75				AddRegData	"""CLASSES"",""CLSID\{00020801-0000-0000-C000-000000000046}\Verb\1"","""",""&Open,0,2"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+76				AddRegData	"""CLASSES"",""CLSID\{00020801-0000-0000-C000-000000000046}\LocalServer"","""",""%s\GRAPH5.EXE"","""""					%25		us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+77				AddRegData	"""CLASSES"",""CLSID\{00020801-0000-0000-C000-000000000046}\InprocHandler"","""",""OLE2.DLL"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+78				AddRegData	"""CLASSES"",""CLSID\{00020801-0000-0000-C000-000000000046}\ProgID"","""",""MSGraph.Chart.5"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+79				AddRegData	"""CLASSES"",""CLSID\{00020801-0000-0000-C000-000000000046}\VersionIndependentProgID"","""",""MSGraph.Chart"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+80				AddRegData	"""CLASSES"",""MSGraph.Application.5"","""",""Microsoft Graph 5.0 Application"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+81				AddRegData	"""CLASSES"",""MSGraph.Application.5\CLSID"","""",""{000208EC-0000-0000-C000-000000000046}"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+82				AddRegData	"""CLASSES"",""CLSID\{000208EC-0000-0000-C000-000000000046}"","""",""Microsoft Graph 5.0 Application"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+83				AddRegData	"""CLASSES"",""CLSID\{000208EC-0000-0000-C000-000000000046}\InprocHandler"","""",""OLE2.DLL"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+84				AddRegData	"""CLASSES"",""CLSID\{000208EC-0000-0000-C000-000000000046}\LocalServer"","""",""%s\GRAPH5.EXE /Automation"","""""					%25		us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+85				AddRegData	"""CLASSES"",""CLSID\{000208EC-0000-0000-C000-000000000046}\VersionIndependentProgID"","""",""MSGraph.Application"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+86				AddRegData	"""CLASSES"",""CLSID\{000208EC-0000-0000-C000-000000000046}\ProgID"","""",""MSGraph.Application.5"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+87				AddRegData	"""CLASSES"",""CLSID\{00020800-0000-0000-C000-000000000046}"","""","""","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+88				AddRegData	"""CLASSES"",""CLSID\{00020800-0000-0000-C000-000000000046}\InprocHandler"","""",""OLE2.DLL"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+89				AddRegData	"""CLASSES"",""CLSID\{00020800-0000-0000-C000-000000000046}\LocalServer"","""",""%s\GRAPH5.EXE /Automation"","""""					%25		us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+90				AddRegData	"""CLASSES"",""TypeLib\{00020802-0000-0000-C000-000000000046}\1.0"","""",""Microsoft Graph 5.0 Object Library"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+91				AddRegData	"""CLASSES"",""TypeLib\{00020802-0000-0000-C000-000000000046}\1.0\9\win16"","""",""%s\GREN50.OLB"","""""					%25		us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+92				AddRegData	"""CLASSES"",""TypeLib\{00020802-0000-0000-C000-000000000046}\1.0\HELPDIR"","""","""","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+93				AddRegData	"""CLASSES"",""CLSID\{00030006-0000-0000-C000-000000000046}"","""",""Microsoft Graph 3.0"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+94				AddRegData	"""CLASSES"",""CLSID\{00030006-0000-0000-C000-000000000046}\Ole1Class"","""",""MSGraph"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+95				AddRegData	"""CLASSES"",""CLSID\{00030006-0000-0000-C000-000000000046}\ProgID"","""",""MSGraph"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+96				AddRegData	"""CLASSES"",""CLSID\{00030006-0000-0000-C000-000000000046}\AutoConvertTo"","""",""{00020801-0000-0000-C000-000000000046}"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+97				AddRegData	"""CLASSES"",""MSGraph"","""",""Microsoft Graph 3.0"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+98				AddRegData	"""CLASSES"",""MSGraph\protocol\StdFileEditing\server"","""",""%s\GRAPH5.EXE"","""""					%25		us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+99				AddRegData	"""CLASSES"",""MSGraph\protocol\StdExecute\server"","""",""%s\GRAPH5.EXE"","""""					%25		us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+100				AddRegData	"""CLASSES"",""MSGraph\NotInsertable"","""","""","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+101				AddRegData	"""CLASSES"",""MSGraph\CLSID"","""",""{00030006-0000-0000-C000-000000000046}"","""""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+102				AddIniLine	"""GRAPH5.INI"",""Microsoft Graph"",""Options5"",""27"""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+104				DetectOlderFile	DEFAULT.GRA					%w		us		C:\WINDOWS\
+105				Depend	104 ? 106							us	No	C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+106				CopyIniValue	"SYSTEM.INI,boot,WinCodePage,GRAPH5.INI,Microsoft Graph,WinCodePage"							nyi		
+108				Group	110 114 120							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+109				CustomAction	"""wizset32.dll"", ""DetectRegData"", ""CLASSES\.gra"""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+110				Depend	109 ? : 111							us	Yes	C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+111				AddRegData	"""CLASSES"","".gra"","""",""MSGraph.Chart.5"","""""							nyi		
+113				CustomAction	"""wizset32.dll"", ""DetectRegData"", ""CLASSES\MSGraph.Chart"""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+114				Depend	113 ? : 115 116 117							us	Yes	C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+115				AddRegData	"""CLASSES"",""MSGraph.Chart"","""",""Microsoft Graph"","""""							nyi		
+116				AddRegData	"""CLASSES"",""MSGraph.Chart\CLSID"","""",""{00020801-0000-0000-C000-000000000046}"","""""							nyi		
+117				AddRegData	"""CLASSES"",""MSGraph.Chart\CurVer"","""",""MSGraph.Chart.5"","""""							nyi		
+119				CustomAction	"""wizset32.dll"", ""DetectRegData"", ""CLASSES\MSGraph.Application"""							us		C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+120				Depend	119 ? : 121 122 123							us	Yes	C:\Archivos de programa\Archivos comunes\Microsoft Shared\MSGRAPH5\
+121				AddRegData	"""CLASSES"",""MSGraph.Application"","""",""Microsoft Graph Application"","""""							nyi		
+122				AddRegData	"""CLASSES"",""MSGraph.Application\CurVer"","""",""MSGraph.Application.5"","""""							nyi		
+123				AddRegData	"""CLASSES"",""MSGraph.Application\CLSID"","""",""{000208EC-0000-0000-C000-000000000046}"","""""							nyi		
+125				Group	126 127 128 129 130 131 132									
+126				InstallShared	"MS Info,Msinfo32Exe,MSInfo,MSInfo, "									
+127				CompanionFile	"126 : MS Info,Imgwalk_dll"									
+128				CompanionFile	"126 : MS Info,Msinfo32Hlp"									
+129				CompanionFile	"126 : MS Info,Msinfo32Cnt"									
+130				CustomAction	"wizset32.dll,RemoveHelpAuxFile,MS Info;Msinfo32Ftg"					%128				
+131				CustomAction	"wizset32.dll,RemoveHelpAuxFile,MS Info;Msinfo32Fts"					%128				
+132				CustomAction	"wizset32.dll,RemoveHelpAuxFile,MS Info;Msinfo32Gid"					%128				
+133				Group	134 135 136 137 138 139 140 151 161 141							us		C:\SACFA 3.0\
+134				InstallShared	"FoxPro Runtime,Vfp500Dll,vfp500,,8"					%M		us		C:\WINDOWS\SYSTEM\
+135				InstallShared	"FoxPro Runtime,Vfp5esnDll,vfp5esn,,8"					%M		us		C:\WINDOWS\SYSTEM\
+136				AddRegData	"""CLASSES"", ""VisualFoxProRuntime.5\shell\open\command"", """", ""%s\VFP500.DLL %%1"""					%134		us		C:\WINDOWS\SYSTEM\
+137				AddRegData	"""CLASSES"", ""VisualFoxProRuntime.5"", """", ""Microsoft Visual FoxPro 5.0 Runtime"""							us		C:\SACFA 3.0\
+138				AddRegData	"""CLASSES"",""NoDualInterface\{2B32FBC2-A8F1-11CF-93EE-00AA00C08FDF}"",                """","""","""""							us		C:\SACFA 3.0\
+139				AddRegData	"""CLASSES"",""NoDualInterface\{D4A97620-8E8F-11CF-93CD-00AA00C08FDF}"",                """","""","""""							us		C:\SACFA 3.0\
+140				AddRegData	"""CLASSES"",""NoDualInterface\{EAB22AC3-30C1-11CF-A7EB-0000C05BAE0B}"",                """","""","""""							us		C:\SACFA 3.0\
+141				AddRegData	"""CLASSES"",""VisualFoxProRuntime.5\Resources"","""",""%s\VFP5ESN.DLL"","""""					%135		us		C:\WINDOWS\SYSTEM\
+143				Group	144 145 151							us		C:\SACFA 3.0\
+144				AddRegData	"""CLASSES"", ""Licenses"", """", ""Licensing: Copying the keys may be a violation of established copyrights."""							us		C:\SACFA 3.0\
+145				AddRegData	"""CLASSES"", ""Licenses\DB4C0D00-400B-101B-A3C9-08002B2F49FB"", """", ""mgkgtgnnmnmninigthkgogggvmkhinjggnvm"""							us		C:\SACFA 3.0\
+147				CustomAction	"""wizset32.dll"", ""Detect95"", ""Win95"""							nyi		
+148				Depend	147 ? 149 : 150									
+149				InstallSysFile	"""System"", ""Ctl3dsDll"""		vital	shared						
+150				InstallSysFile	"""System"", ""Ctl3dntDll"""		vital	shared						
+151				InstallShared	"System,Vfpole50Dll,VfpOle50"					%M		us		C:\WINDOWS\SYSTEM\
+153				DetectOlderFile	"OLEAUT32.DLL, 2.20.4028.1"					%M		nyi		
+154				Depend	153 ? 155 : 156							nyi		
+155				Depend	147 ? 156  157 158 : 156 157 159 158 160							nyi		
+156				InstallSysFile	"""System"", ""Olepro32Dll"""							nyi		
+157		OLEPRO32.DLL		SelfReg	"""System"", Olepro32Dll"					%M		nyi		
+158				InstallSysFile	"""System"", ""Oleaut32Dll"""							nyi		
+159		Setup Message	Installation of this product requires system administrator privileges.	CustomAction	"wizset32.dll, DetectAdminPrivileges"							nyi		
+160		Visual FoxPro Setup - Restart Windows	"You need to restart Windows NT to complete the installation.  After restarting Windows NT, Setup will be complete."	CustomAction	"wizset32.dll, DoMessageBox, 24"							nyi		
+161				InstallShared	"FoxPro Runtime,FoxproInt,foxproint,,8"					%M		us		C:\WINDOWS\SYSTEM\
+162			*** Post Setup Executable	Group	163							us		C:\SACFA 3.0\
+163				CustomAction	"""wizset32.dll"", ""ExecutePostSetupCommand"", ""INSTALA.EXE"""							us		C:\SACFA 3.0\
+164	yes			InstallShared	"Ole Custom Controls,43232533,mscal,,8"					%M		us		C:\WINDOWS\SYSTEM\
+165	yes	MSCAL.OCX		SelfReg	"""Ole Custom Controls"", ""43232533"""							us		C:\WINDOWS\SYSTEM\
+166	yes		Program Manager Icon	AddProgmanItem	"Sacfa, sacfa 3.0, %s\sacfa.exe, %s, , 0, , 0, 0, 0"		vital			%D		us		C:\SACFA 3.0\
